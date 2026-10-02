@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111827">
+<meta name="description" content="Panda Robotics VEX Competition Countdown">
+<title>Panda Robotics | VEX Countdown</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+<header class="hero">
+  <div class="brand"><div class="panda">🐼</div><div>
+    <small>PANDA ROBOTICS</small><h1>VEX Competition Countdown</h1>
+    <p>The road to the next competition.</p>
+  </div></div>
+  <div id="now" class="now"></div>
+</header>
+
+<main>
+<section>
+  <div class="heading"><div><span>UP NEXT</span><h2>Next Competition</h2></div><b id="nextType" class="badge">—</b></div>
+  <article id="nextCard" class="next-card">
+    <div class="next-main"><div id="nextIcon" class="big-icon">🗓️</div><div>
+      <h3 id="nextName">Loading...</h3><p id="nextLocation">—</p><p id="nextDate" class="date">—</p>
+    </div></div>
+    <div id="nextCountdown" class="big-countdown">—</div>
+    <div id="nextUrgency" class="urgency">—</div>
+  </article>
+</section>
+
+<section>
+  <div class="heading"><div><span>SCHEDULE</span><h2>Competition Calendar</h2></div>
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter iq" data-filter="VEX IQ">VEX IQ</button>
+      <button class="filter v5" data-filter="VEX V5">VEX V5</button>
+    </div>
+  </div>
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty hidden">No events match this filter.</div>
+</section>
+</main>
+
+<footer><span>© <span id="year"></span> Panda Robotics</span><span>VEX IQ 🔵 · VEX V5 🔴</span></footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
