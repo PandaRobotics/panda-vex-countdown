@@ -1,57 +1,29 @@
-# Panda Robotics — VEX Competition Countdown
+# Panda Robotics — VEX 2026–2027 Timeline
 
-Repository tĩnh cho GitHub Pages. Giao diện Panda Robotics, VEX IQ xanh, VEX V5 đỏ, countdown realtime và mức cảnh báo tăng dần khi ngày thi đến gần.
+## Tính năng
+- Một trang cuộn dọc, timeline tự sắp xếp theo thời điểm gần nhất.
+- VEX IQ màu xanh dương; VEX V5 màu đỏ; nền đen, viền/nhãn vàng, chữ trắng.
+- Mỗi giải có countdown **ngày · giờ · phút · giây** cập nhật mỗi giây.
+- Notebook deadline hiện dạng animation khi rê chuột/focus vào thẻ giải.
+- Deadline cũng có mốc riêng trên timeline để không bị bỏ sót.
+- Nội dung hai bên trượt vào khi cuộn xuống (IntersectionObserver).
+- Lọc VEX IQ / VEX V5 và tùy chọn hiển thị mốc đã qua.
 
-## Files
-- `index.html` — cấu trúc website
-- `style.css` — giao diện
-- `script.js` — countdown, filter, urgency
-- `events.json` — **chỉ cần sửa file này để thêm/sửa giải**
+## Publish GitHub Pages
+1. Giải nén ZIP.
+2. Upload `index.html`, `style.css`, `script.js`, `events.json`, `README.md` vào root repo `panda-vex-countdown` (không upload cả thư mục lồng bên trong).
+3. GitHub → repository → Settings → Pages.
+4. Source: **Deploy from a branch**; Branch: **main**; Folder: **/(root)** → Save.
+5. Chờ workflow Pages chạy xong trong tab Actions.
+6. Mở `https://pandarobotics.github.io/panda-vex-countdown/`, nhấn Ctrl+F5 nếu còn cache.
 
-## Publish bằng GitHub Pages
+## Chỉnh sửa dữ liệu
+Chỉnh `events.json`:
+- `events`: giải đấu
+- `deadlines`: các mốc notebook độc lập
+- `date`: ISO-8601 có timezone, ví dụ Việt Nam `2026-11-07T00:00:00+07:00`, Trung Quốc `2026-12-17T08:00:00+08:00`.
+- Mỗi event có thể có `notebook: []` để hiện deadline dạng hover trong thẻ giải.
+- Thêm/sửa dữ liệu không cần sửa HTML/CSS/JS.
 
-1. Tạo repository mới, ví dụ `panda-vex-countdown`.
-2. Upload `index.html`, `style.css`, `script.js`, `events.json`, `README.md`.
-3. Vào `Settings → Pages`.
-4. `Build and deployment → Source: Deploy from a branch`.
-5. Chọn `main` và `/ (root)`, rồi `Save`.
-6. Website sẽ có dạng:
-   `https://YOUR-USERNAME.github.io/panda-vex-countdown/`
-
-## Thêm sự kiện
-
-Sửa `events.json`, ví dụ:
-
-```json
-{
-  "id": "vex-iq-2027",
-  "name": "VEX IQ Competition",
-  "type": "VEX IQ",
-  "date": "2027-02-20T08:00:00+07:00",
-  "location": "Ho Chi Minh City, Vietnam",
-  "icon": "🏆"
-}
-```
-
-`type` dùng `VEX IQ` hoặc `VEX V5`.
-
-Timezone Việt Nam: `+07:00`. Trung Quốc: `+08:00`.
-
-## Mức countdown
-
-- >60 ngày: 🗓️
-- 30–60 ngày: 📅
-- 14–30 ngày: ⏳
-- 7–14 ngày: ⏰
-- 3–7 ngày: ⚠️
-- 1–3 ngày: 🔥
-- <24 giờ: 🚨
-- ngày thi: EVENT DAY
-
-## Custom domain
-
-Sau khi website hoạt động, có thể cấu hình domain riêng trong `Settings → Pages → Custom domain`, ví dụ `countdown.pandarobotics.edu.vn`, rồi thêm DNS record tương ứng tại nhà cung cấp domain.
-
-## Kiến trúc
-
-Không cần backend/database. Trình duyệt tải `events.json`, sau đó JavaScript tự tính thời gian còn lại mỗi giây. Vì vậy GitHub Pages là đủ.
+## Lưu ý về dữ liệu nhập ban đầu
+Các mốc được nhập từ infographic bạn gửi. Một vài dòng chữ nhỏ trong ảnh chưa đọc rõ (ngày dự bị/ngày vá và một số ghi chú notebook), nên README/chi tiết event đã đánh dấu cần xác nhận thay vì tự suy diễn. Kiểm tra lại giờ chính xác của các deadline trước khi công bố rộng rãi.

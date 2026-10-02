@@ -1,36 +1,250 @@
-[
-  {
-    "id": "ssis-friendly-2026",
-    "name": "SSIS Friendly",
-    "type": "VEX V5",
-    "date": "2026-10-25T08:00:00+07:00",
-    "location": "Ho Chi Minh City, Vietnam",
-    "icon": "🤖"
-  },
-  {
-    "id": "ssis-qualifier-2026",
-    "name": "SSIS National Qualifier",
-    "type": "VEX V5",
-    "date": "2026-12-05T08:00:00+07:00",
-    "location": "Vietnam",
-    "icon": "🏆"
-  },
-  {
-    "id": "yixing-china-2026",
-    "name": "China / Yixing Competition",
-    "type": "VEX V5",
-    "date": "2026-12-17T08:00:00+08:00",
-    "endDate": "2026-12-20T18:00:00+08:00",
-    "location": "Yixing, Jiangsu, China",
-    "icon": "🇨🇳"
-  },
-  {
-    "id": "vex-national-final-2027",
-    "name": "VEX National Final",
-    "type": "VEX V5",
-    "date": "2027-01-09T08:00:00+07:00",
-    "endDate": "2027-01-10T18:00:00+07:00",
-    "location": "Hanoi, Vietnam",
-    "icon": "🏁"
-  }
-]
+{
+  "events": [
+    {
+      "id": "iq-scrimmage",
+      "title": "VEX IQ — Scrimmage",
+      "type": "VEX IQ",
+      "date": "2026-10-17T08:00:00+07:00",
+      "place": "TP.HCM — TAS",
+      "details": [
+        "Ngày thi: 17/10/2026",
+        "Nơi thi: TP.HCM — TAS"
+      ],
+      "notebook": []
+    },
+    {
+      "id": "v5-scrimmage",
+      "title": "VEX V5 — Scrimmage",
+      "type": "VEX V5",
+      "date": "2026-10-25T08:00:00+07:00",
+      "place": "TP.HCM — SSIS",
+      "details": [
+        "Ngày thi: 25/10/2026",
+        "Nơi thi: TP.HCM — SSIS"
+      ],
+      "notebook": [
+        {
+          "label": "Nộp Notebook V5 (1)",
+          "date": "2026-10-21T22:00:00+07:00",
+          "display": "22H 21/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "v5-qualifier-1",
+      "title": "VEX V5 — Qualifier 1",
+      "type": "VEX V5",
+      "date": "2026-11-08T08:00:00+07:00",
+      "place": "Chưa xác nhận địa điểm",
+      "details": [
+        "Ngày thi: 08/11/2026",
+        "Các dòng ngày dự bị/ngày vá trong ảnh cần xác nhận."
+      ],
+      "notebook": [
+        {
+          "label": "Nộp Notebook IQ (1)",
+          "date": "2026-11-07T00:00:00+07:00",
+          "display": "24H 07/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "iq-qualifier-1",
+      "title": "VEX IQ — Qualifier 1",
+      "type": "VEX IQ",
+      "date": "2026-11-14T08:00:00+07:00",
+      "place": "TP.HCM — TAS",
+      "details": [
+        "Ngày thi: 14/11/2026",
+        "Nơi thi: TP.HCM — TAS"
+      ],
+      "notebook": [
+        {
+          "label": "Nộp Notebook IQ (2)",
+          "date": "2026-11-10T22:00:00+07:00",
+          "display": "22H 10/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "iq-qualifier-2",
+      "title": "VEX IQ — Qualifier 2",
+      "type": "VEX IQ",
+      "date": "2026-11-28T08:00:00+07:00",
+      "endDate": "2026-11-29T18:00:00+07:00",
+      "place": "Đà Nẵng",
+      "details": [
+        "Ngày thi: 28–29/11/2026",
+        "Nơi thi: Đà Nẵng",
+        "Ngày dự bị/ngày vá trong ảnh chưa đủ rõ để xác nhận."
+      ],
+      "notebook": [
+        {
+          "label": "Nộp Notebook V5 (2)",
+          "date": "2026-11-28T00:00:00+07:00",
+          "display": "24H 28/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "v5-qualifier-2",
+      "title": "VEX V5 — Qualifier 2",
+      "type": "VEX V5",
+      "date": "2026-12-05T08:00:00+07:00",
+      "place": "TP.HCM — SSIS",
+      "details": [
+        "Ngày thi: 05/12/2026",
+        "Nơi thi: TP.HCM — SSIS"
+      ],
+      "notebook": [
+        {
+          "label": "Hoàn tất in Notebook / chuẩn bị hồ sơ",
+          "date": "2026-12-10T00:00:00+07:00",
+          "display": "10/12/2026 — Hoàn tất in Notebook"
+        }
+      ]
+    },
+    {
+      "id": "v5-signature-yixing",
+      "title": "VEX V5 — Signature",
+      "type": "VEX V5",
+      "date": "2026-12-17T08:00:00+08:00",
+      "endDate": "2026-12-20T18:00:00+08:00",
+      "place": "Wuxi / Yixing — Trung Quốc",
+      "details": [
+        "Ngày thi: 17–20/12/2026",
+        "Địa điểm ghi trên timeline: Wuxi — Trung Quốc",
+        "Các mốc chuẩn bị/di chuyển và nội dung notebook trong ảnh cần xác nhận thêm."
+      ],
+      "notebook": [
+        {
+          "label": "Nộp Notebook V5 (3)",
+          "date": "2026-12-21T20:00:00+07:00",
+          "display": "20H 21/12/2026"
+        }
+      ]
+    },
+    {
+      "id": "v5-national",
+      "title": "VEX V5 — National",
+      "type": "VEX V5",
+      "date": "2027-01-09T08:00:00+07:00",
+      "endDate": "2027-01-10T18:00:00+07:00",
+      "place": "Hà Nội",
+      "details": [
+        "Ngày thi: 09–10/01/2027",
+        "Nơi thi: Hà Nội"
+      ],
+      "notebook": [
+        {
+          "label": "Nộp Notebook IQ (5)",
+          "date": "2027-01-10T20:00:00+07:00",
+          "display": "20H 10/01/2027"
+        },
+        {
+          "label": "Nộp Notebook V5 (4)",
+          "date": "2027-01-15T00:00:00+07:00",
+          "display": "24H 15/01/2027"
+        }
+      ]
+    },
+    {
+      "id": "iq-national",
+      "title": "VEX IQ — National",
+      "type": "VEX IQ",
+      "date": "2027-01-23T08:00:00+07:00",
+      "endDate": "2027-01-24T18:00:00+07:00",
+      "place": "Hà Nội",
+      "details": [
+        "Ngày thi: 23–24/01/2027 (ảnh có dòng tiêu đề 23,24/1; phần mô tả ngày thi cần đối chiếu lại).",
+        "Nơi thi: Hà Nội"
+      ],
+      "notebook": []
+    },
+    {
+      "id": "v5-signature-ssis",
+      "title": "VEX V5 — Signature",
+      "type": "VEX V5",
+      "date": "2027-02-26T08:00:00+07:00",
+      "endDate": "2027-02-28T18:00:00+07:00",
+      "place": "TP.HCM — SSIS",
+      "details": [
+        "Ngày thi: 26–28/02/2027",
+        "Nơi thi: TP.HCM — SSIS"
+      ],
+      "notebook": [
+        {
+          "label": "Nộp Notebook V5 (4)",
+          "date": "2027-01-15T00:00:00+07:00",
+          "display": "24H 15/01/2027"
+        }
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "v5-nb-1",
+      "title": "Nộp Notebook V5 (1)",
+      "type": "VEX V5",
+      "date": "2026-10-21T22:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "VEX V5 — Scrimmage"
+    },
+    {
+      "id": "iq-nb-1",
+      "title": "Nộp Notebook IQ (1)",
+      "type": "VEX IQ",
+      "date": "2026-11-07T00:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "VEX V5 — Qualifier 1"
+    },
+    {
+      "id": "iq-nb-2",
+      "title": "Nộp Notebook IQ (2)",
+      "type": "VEX IQ",
+      "date": "2026-11-10T22:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "VEX IQ — Qualifier 1"
+    },
+    {
+      "id": "v5-nb-2",
+      "title": "Nộp Notebook V5 (2)",
+      "type": "VEX V5",
+      "date": "2026-11-28T00:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "VEX IQ — Qualifier 2"
+    },
+    {
+      "id": "print-notebook-dec10",
+      "title": "Hoàn tất in Notebook",
+      "type": "VEX V5",
+      "date": "2026-12-10T00:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "VEX V5 — Qualifier 2"
+    },
+    {
+      "id": "v5-nb-3",
+      "title": "Nộp Notebook V5 (3)",
+      "type": "VEX V5",
+      "date": "2026-12-21T20:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "VEX V5 — Signature (China)"
+    },
+    {
+      "id": "iq-nb-5",
+      "title": "Nộp Notebook IQ (5)",
+      "type": "VEX IQ",
+      "date": "2027-01-10T20:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "VEX V5 — National"
+    },
+    {
+      "id": "v5-nb-4",
+      "title": "Nộp Notebook V5 (4)",
+      "type": "VEX V5",
+      "date": "2027-01-15T00:00:00+07:00",
+      "kind": "deadline",
+      "forEvent": "National / VEX V5 Signature"
+    }
+  ]
+}

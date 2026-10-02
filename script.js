@@ -1,21 +1,19 @@
-let events=[],filter="all";
-const levels=[
-{max:1,icon:"🚨",label:"Less than 24 hours — EVENT IMMINENT",urgent:true},
-{max:3,icon:"🔥",label:"1–3 days — FINAL PREPARATION",urgent:true},
-{max:7,icon:"⚠️",label:"3–7 days — GET READY",urgent:true},
-{max:14,icon:"⏰",label:"7–14 days — TWO WEEKS TO GO"},
-{max:30,icon:"⏳",label:"14–30 days — COUNTDOWN ON"},
-{max:60,icon:"📅",label:"30–60 days — MARK YOUR CALENDAR"},
-{max:Infinity,icon:"🗓️",label:"More than 60 days — PLANNING PHASE"}];
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
-const urgency=ms=>levels.find(x=>Math.max(0,ms)/86400000<=x.max);
-const fmt=s=>new Intl.DateTimeFormat("en-GB",{weekday:"short",day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"}).format(new Date(s));
-const short=s=>new Intl.DateTimeFormat("en-GB",{day:"2-digit",month:"short",year:"numeric"}).format(new Date(s));
-const range=e=>e.endDate?`${short(e.date)} – ${short(e.endDate)}`:fmt(e.date);
-function countdown(ms){if(ms<=0)return"EVENT DAY";let t=Math.floor(ms/1000),d=Math.floor(t/86400),h=Math.floor(t%86400/3600),m=Math.floor(t%3600/60),s=t%60;return d?`${d}d ${String(h).padStart(2,"0")}h ${String(m).padStart(2,"0")}m`:`${h}h ${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`}
-function next(){return events.filter(e=>new Date(e.date)>new Date()).sort((a,b)=>new Date(a.date)-new Date(b.date))[0]}
-function renderNext(){let e=next(),card=document.querySelector("#nextCard");if(!e){nextName.textContent="No upcoming events";nextCountdown.textContent="—";nextUrgency.textContent="All listed events have passed.";return}let u=urgency(new Date(e.date)-Date.now());card.style.setProperty("--accent",e.type==="VEX V5"?"var(--v5)":"var(--iq)");nextIcon.textContent=u.icon;nextName.textContent=e.name;nextLocation.textContent=e.location;nextDate.textContent=range(e);nextCountdown.textContent=countdown(new Date(e.date)-Date.now());nextUrgency.textContent=u.label;nextType.textContent=e.type;nextType.className=`badge ${e.type==="VEX V5"?"v5":""}`}
-function render(){let list=events.filter(e=>filter==="all"||e.type===filter).sort((a,b)=>new Date(a.date)-new Date(b.date));grid.innerHTML="";empty.classList.toggle("hidden",!!list.length);list.forEach(e=>{let ms=new Date(e.date)-Date.now(),u=urgency(ms),v=e.type==="VEX V5";let a=document.createElement("article");a.className=`event ${v?"v5":""} ${u.urgent?"urgent":""}`;a.innerHTML=`<div><div class="top"><span class="event-type">${e.type}</span><span>${e.icon||"🤖"}</span></div><h3>${esc(e.name)}</h3><p class="location">${esc(e.location)}</p></div><div><div class="bottom"><span class="event-date">${range(e)}</span><span class="card-countdown">${countdown(ms)}</span></div><p class="urgency-text">${u.icon} ${u.label}</p></div>`;grid.appendChild(a)})}
-function tick(){now.textContent=new Intl.DateTimeFormat("en-GB",{weekday:"long",day:"2-digit",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit"}).format(new Date());year.textContent=new Date().getFullYear();renderNext();render()}
-document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{filter=b.dataset.filter;document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));b.classList.add("active");render()});
-fetch("events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{events=d;tick();setInterval(tick,1000)}).catch(e=>{nextName.textContent="Could not load events.json";nextUrgency.textContent="Make sure events.json is in the same folder as index.html.";console.error(e)});
+let DATA={events:[],deadlines:[]},filter="all",showPast=false;
+const $=s=>document.querySelector(s),pad=n=>String(n).padStart(2,"0");
+const fmtDate=d=>new Intl.DateTimeFormat("vi-VN",{day:"2-digit",month:"2-digit",year:"numeric"}).format(new Date(d));
+function parts(ms){if(ms<=0)return null;let s=Math.floor(ms/1000);return{d:Math.floor(s/86400),h:Math.floor(s%86400/3600),m:Math.floor(s%3600/60),s:s%60}}
+function clockHTML(ms,target){let t=parts(ms);return `<div class="countdown" data-countdown data-target="${target}">${t?unitHTML(t):'<div class="unit"><b>00</b><small>ĐÃ ĐẾN HẠN</small></div>'}</div>`}
+function unitHTML(t){return `<div class="unit"><b>${t.d}</b><small>NGÀY</small></div><div class="unit"><b>${pad(t.h)}</b><small>GIỜ</small></div><div class="unit"><b>${pad(t.m)}</b><small>PHÚT</small></div><div class="unit"><b>${pad(t.s)}</b><small>GIÂY</small></div>`}
+function eventRange(e){return e.endDate?`${fmtDate(e.date)} – ${fmtDate(e.endDate)}`:fmtDate(e.date)}
+function makeEvent(e){return{...e,kind:"event",ts:new Date(e.date).getTime()}}
+function makeDeadline(d){return{...d,kind:"deadline",ts:new Date(d.date).getTime()}}
+function clockInline(ms){let t=parts(ms);return t?`${t.d} ngày · ${pad(t.h)} giờ · ${pad(t.m)} phút · ${pad(t.s)} giây còn lại`:"ĐÃ QUA DEADLINE"}
+function eventCard(e){let v=e.type==="VEX V5"?"v5":"iq",ms=e.ts-Date.now(),past=ms<=0,details=(e.details||[]).map(x=>`<div>${x}</div>`).join("");let attached=(e.notebook||[]).map(n=>{let target=new Date(n.date).getTime();return `<div class="deadline"><div class="deadline-box"><div class="deadline-title">NOTEBOOK DEADLINE</div><div class="deadline-name">${n.label}</div><div class="deadline-clock" data-inline-target="${target}">${clockInline(target-Date.now())}</div><div class="deadline-note">${n.display||fmtDate(n.date)}</div></div></div>`}).join("");return `<div class="card" tabindex="0"><div class="date-label">${eventRange(e)}</div><h3>${e.title}</h3><div class="place">${e.place||""}</div>${clockHTML(ms,e.ts)}<div class="details">${details}</div><div class="card-footer"><span class="type">${e.type}</span><span class="past-label">${past?"ĐÃ DIỄN RA":"COUNTING DOWN"}</span></div>${attached}</div>`}
+function deadlineCard(d){let ms=d.ts-Date.now();return `<div class="card" tabindex="0"><div class="date-label">NOTEBOOK DEADLINE · ${fmtDate(d.date)}</div><h3>${d.title}</h3><div class="place">Liên quan: ${d.forEvent||"Panda Robotics"}</div>${clockHTML(ms,d.ts)}<div class="card-footer"><span class="type">${d.type}</span><span class="past-label">${ms<=0?"ĐÃ QUA DEADLINE":"CẦN HOÀN THÀNH"}</span></div></div>`}
+function render(){let all=[...DATA.events.map(makeEvent),...DATA.deadlines.map(makeDeadline)].filter(x=>filter==="all"||x.type===filter).filter(x=>showPast||x.ts>Date.now()).sort((a,b)=>a.ts-b.ts);let host=$("#items");host.innerHTML="";all.forEach((e,i)=>{let wrap=document.createElement("article"),right=i%2===1;wrap.className=`item ${right?"right":""} ${e.type==="VEX V5"?"v5":"iq"} ${e.kind==="deadline"?"deadline-only":""}`;wrap.innerHTML=`<span class="node"></span>${e.kind==="deadline"?deadlineCard(e):eventCard(e)}`;host.appendChild(wrap)});observe();updateClocks()}
+let observer;function observe(){if(observer)observer.disconnect();observer=new IntersectionObserver(entries=>entries.forEach(x=>{if(x.isIntersecting){x.target.classList.add("visible");observer.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll(".item").forEach(x=>observer.observe(x))}
+function updateClocks(){document.querySelectorAll("[data-countdown]").forEach(el=>{let t=parts(Number(el.dataset.target)-Date.now());el.innerHTML=t?unitHTML(t):'<div class="unit"><b>00</b><small>ĐÃ ĐẾN HẠN</small></div>'});document.querySelectorAll("[data-inline-target]").forEach(el=>el.textContent=clockInline(Number(el.dataset.inlineTarget)-Date.now()))}
+function tick(){updateClocks()}
+document.querySelectorAll(".filter").forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.filter;document.querySelectorAll(".filter").forEach(x=>x.classList.toggle("active",x===b));render()}));
+$("#showPast").addEventListener("change",e=>{showPast=e.target.checked;render()});
+fetch("events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("events.json load failed");return r.json()}).then(d=>{DATA=d;render();setInterval(tick,1000)}).catch(e=>{$("#items").innerHTML='<p class="empty">Không tải được events.json. Kiểm tra file và vị trí trong repository.</p>';console.error(e)});
