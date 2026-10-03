@@ -9,22 +9,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="landing.css">
-</head>
+  <link rel="stylesheet" href="assets/css/landing.css">
+  <link rel="stylesheet" href="assets/css/hero-space.css">
+  <link rel="stylesheet" href="assets/css/achievements.css">
+  <link rel="stylesheet" href="assets/css/achievement-slides.css">
+  <link rel="stylesheet" href="assets/css/cosmic-background.css">
+  <link rel="stylesheet" href="assets/css/scroll-top.css">
+  <link rel="stylesheet" href="assets/css/landing-header.css">
+<link rel="stylesheet" href="assets/css/footer.css"></head>
 <body>
   <header class="site-header">
-    <a class="wordmark" href="./" aria-label="Panda Robotics — trang chủ"><span class="brand-dot" aria-hidden="true"></span>PANDA ROBOTICS</a>
-    <nav aria-label="Điều hướng chính"><a href="#about">Về Panda</a><a class="nav-countdown" href="vex-countdown/">VEX Countdown <span aria-hidden="true">↗</span></a></nav>
+    <a class="landing-header-brand" href="./" aria-label="Panda Robotics — trang chủ"><img src="assets/images/brand/panda-robotics.png" alt="Logo Panda Robotics" width="100" height="100"><div><div class="header-eyebrow">PANDA ROBOTICS</div><div class="header-title">VEX 2026–2027</div></div></a>
+    <nav aria-label="Điều hướng chính"><a href="#about">Về Panda</a><a href="#achievements">Thành tích</a><a class="nav-countdown" href="vex-countdown/">VEX Countdown <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main>
     <section class="hero" aria-labelledby="hero-title">
+      <div class="cosmic-backdrop" aria-hidden="true"><span class="cosmic-stars"></span><span class="cosmic-stars cosmic-stars-distant"></span></div>
       <div class="hero-copy"><p class="eyebrow">BUILD · CODE · COMPETE</p><h1 id="hero-title">Ý tưởng lớn.<br><span>Khởi đầu từ<br>một robot.</span></h1><p class="intro">Khám phá, lập trình và chinh phục thử thách cùng Panda Robotics.</p><div class="hero-actions"><a class="button primary" href="vex-countdown/">Theo dõi mùa giải VEX <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">Khám phá Panda <span aria-hidden="true">↓</span></a></div><div class="season"><span class="live-dot" aria-hidden="true"></span>MÙA GIẢI 2026 — 2027</div></div>
-      <div class="hero-art"><div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div><img src="images/panda-brand-logo.png" alt="Gấu trúc phi hành gia Panda Robotics" width="4884" height="4884" fetchpriority="high"><span class="art-caption">STAY CURIOUS. KEEP BUILDING.</span></div>
+      <div class="hero-art" tabindex="0" aria-label="Logo Panda Robotics giữa các hành tinh">
+        <div class="space-scene" aria-hidden="true"><span class="space-stars"></span><span class="space-planet planet-blue"></span><span class="space-planet planet-gold"></span><span class="space-planet planet-red"></span></div><div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div><img src="assets/images/brand/panda-robotics.png" alt="Gấu trúc phi hành gia Panda Robotics" width="4884" height="4884" fetchpriority="high"><span class="art-caption">STAY CURIOUS. KEEP BUILDING.</span></div>
     </section>
     <section id="about" class="about"><div><p class="eyebrow">VỀ PANDA ROBOTICS</p><h2>Từ sáng tạo<br>đến thi đấu.</h2></div><p>Robotics kết nối tư duy kỹ thuật, lập trình và tinh thần đồng đội. Panda Robotics là nơi những ý tưởng được thử nghiệm, cải tiến và mang đến sân đấu.</p></section>
     <section class="programs" aria-label="Các hệ thi đấu VEX"><article class="program iq"><div class="program-top"><span>01 / VEX IQ</span><span aria-hidden="true">↗</span></div><h2>Lắp ráp.<br>Lập trình. Khám phá.</h2><p>Theo dõi các giải VEX IQ và những mốc Notebook cần chuẩn bị trong mùa giải.</p><a href="vex-countdown/">Xem lịch VEX IQ <span aria-hidden="true">→</span></a></article><article class="program v5"><div class="program-top"><span>02 / VEX V5</span><span aria-hidden="true">↗</span></div><h2>Thiết kế.<br>Tối ưu. Chinh phục.</h2><p>Theo dõi các giải VEX V5, vòng loại, chung kết và các sự kiện Signature.</p><a href="vex-countdown/">Xem lịch VEX V5 <span aria-hidden="true">→</span></a></article></section>
+    <section id="achievements" class="achievements" aria-labelledby="achievements-title">
+      <div class="achievements-heading"><h2 id="achievements-title">Dấu ấn Panda.</h2></div>
+      <div class="award-toolbar" hidden><div class="award-filters" role="group" aria-label="Lọc hệ thi đấu"><button type="button" data-system-filter="all" aria-pressed="true">Tất cả</button><button type="button" data-system-filter="V5" aria-pressed="false">VEX V5</button><button type="button" data-system-filter="IQ" aria-pressed="false">VEX IQ</button></div><label>Mùa giải <select id="award-season"><option value="all">Tất cả các mùa</option></select></label></div>
+      <p id="award-status" class="award-status" role="status">Đang tải thành tích…</p>
+      <div class="award-grid" aria-busy="true"></div>
+      <noscript><p>Bật JavaScript để xem danh sách thành tích, hoặc <a href="https://www.facebook.com/pandaroboticsvn">xem fanpage Panda Robotics</a>.</p></noscript>
+      
+      
+    </section>
     <section class="countdown-callout"><div><p class="eyebrow">MỌI CỘT MỐC. MỘT TIMELINE.</p><h2>Sẵn sàng cho<br>giải đấu tiếp theo?</h2><p>Lịch thi đấu, deadline Notebook và đếm ngược trực tiếp cho VEX IQ & V5.</p></div><a class="button primary" href="vex-countdown/">Mở VEX Countdown <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer><a class="wordmark" href="./">PANDA ROBOTICS</a><span>BUILD · CODE · COMPETE</span><a href="https://www.facebook.com/pandaroboticsvn" target="_blank" rel="noopener noreferrer">Kết nối trên Facebook ↗</a></footer>
-</body>
+  <div class="footer-trigger" aria-hidden="true"></div><footer class="panda-footer"><div class="footer-bar"><a class="footer-brand" href="./">PANDA ROBOTICS</a><span class="footer-slogan">BUILD · CODE · COMPETE</span><a class="footer-zalo" href="https://zalo.me/0876793973" target="_blank" rel="noopener noreferrer">Zalo ↗</a></div><div class="footer-details" inert><div class="footer-details-inner"><div class="footer-message"><p class="footer-kicker">KẾT NỐI VỚI PANDA</p><h2>Stay curious.<br>Keep building.</h2><p>Cùng học hỏi, sáng tạo và chinh phục những sân đấu robotics.</p></div><address class="footer-contact"><a href="mailto:pandarobotics.coach@gmail.com"><span>Email</span>pandarobotics.coach@gmail.com</a><a href="tel:0876793973"><span>Điện thoại · Cô Hậu</span>0876 793 973</a><a href="https://www.facebook.com/pandaroboticsvn" target="_blank" rel="noopener noreferrer"><span>Fanpage</span>Panda Robotics ↗</a><a href="https://zalo.me/0876793973" target="_blank" rel="noopener noreferrer"><span>Zalo</span>Nhắn tin với Panda ↗</a><p><span>Địa chỉ</span>1157/12 Hoàng Sa, P.5, Q. Tân Bình, TP.HCM</p></address><section class="footer-fanpage" aria-label="Fanpage Panda Robotics"><iframe title="Fanpage Panda Robotics trên Facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpandaroboticsvn&amp;tabs=timeline&amp;width=340&amp;height=340&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false" width="340" height="400" style="border:0;overflow:hidden" scrolling="no" frameborder="0" loading="lazy" allow="encrypted-media; picture-in-picture; web-share"></iframe></section></div></div></footer>
+  <script src="assets/js/achievements.js" defer></script>
+  <button id="floatingTop" class="floating-top" type="button" aria-label="Cuộn lên đầu trang" title="Cuộn lên đầu trang"><span aria-hidden="true">🐼</span><span class="floating-top-label" aria-hidden="true">TOP ↑</span></button>
+  <script src="assets/js/scroll-top.js" defer></script>
+  <script src="assets/js/landing-header.js" defer></script>
+<script src="assets/js/footer.js" defer></script></body>
 </html>

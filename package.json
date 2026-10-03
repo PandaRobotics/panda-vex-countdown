@@ -1,0 +1,16 @@
+{
+  "name": "panda-robotics-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Panda Robotics landing page and VEX competition countdown",
+  "scripts": {
+    "dev": "node scripts/dev-server.cjs",
+    "start": "node scripts/dev-server.cjs",
+    "check": "node scripts/check-site.cjs",
+    "sync:photos": "node scripts/sync-galleries.cjs",
+    "build": "node scripts/sync-galleries.cjs && node scripts/check-site.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

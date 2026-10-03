@@ -1,0 +1,53 @@
+.achievements{padding:65px 0 75px;border-top:1px solid #ffffff1a}
+.achievements-heading{display:grid;grid-template-columns:1fr 1fr;align-items:end;gap:40px;margin-bottom:35px}
+.achievements-heading h2{font-size:clamp(36px,4vw,54px);line-height:1.15;margin:0}
+.achievements-heading h2 span{color:var(--gold)}
+.achievements-heading>p{color:var(--muted);font-size:15px;line-height:1.9;max-width:430px}
+.worlds-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #ffc92845;border-radius:10px;background:linear-gradient(120deg,#ffc9280e,#10131a);margin-bottom:32px}
+.worlds-strip>div{padding:24px 20px;border-right:1px solid #ffc92825}
+.worlds-strip>div:last-child{border-right:0}
+.worlds-strip span{display:block;color:var(--muted);font-size:10px;letter-spacing:.08em;margin-bottom:12px}
+.worlds-strip strong{color:var(--gold);font-size:16px;font-weight:400}
+.award-toolbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px}
+.award-filters{display:flex;gap:8px}
+.award-filters button,.award-toolbar select{background:#11151d;color:var(--text);border:1px solid #ffffff25;border-radius:5px;padding:10px 14px;font:inherit;font-size:12px;cursor:pointer}
+.award-filters button[aria-pressed="true"]{background:var(--gold);color:#111;border-color:var(--gold)}
+.award-filters button:hover{border-color:var(--gold)}
+.award-toolbar label{display:flex;gap:12px;align-items:center;color:var(--muted);font-size:12px}
+.award-toolbar select{max-width:190px}
+.award-status{font-size:11px;color:var(--muted);margin:22px 0 16px}
+.award-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.award-card{--accent:var(--v5);display:flex;flex-direction:column;min-width:0;padding:24px;border:1px solid #ffffff18;border-top:2px solid var(--accent);border-radius:8px;background:linear-gradient(145deg,#171a23,#0d1016);transition:border-color .2s,transform .2s}
+.award-card.iq{--accent:var(--iq)}
+.award-card:hover{border-color:var(--accent);transform:translateY(-3px)}
+.award-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:10px;color:var(--muted)}
+.system-badge{color:var(--accent);border:1px solid var(--accent);padding:4px 7px;border-radius:4px}
+.award-card h4{font-weight:400;font-size:19px;line-height:1.4;margin:22px 0 8px}
+.award-detail{font-size:11px;color:var(--muted);line-height:1.8;margin:0 0 16px}
+.award-card ul{list-style:none;padding:0;margin:0 0 24px}
+.award-card li{font-size:13px;line-height:1.65;margin:9px 0;padding-left:17px;position:relative}
+.award-card li::before{content:'✦';position:absolute;left:0;color:var(--gold);font-size:12px}
+.award-source{margin-top:auto;font-size:11px;color:var(--gold);align-self:flex-start}
+.achievement-note{font-size:11px;line-height:1.9;color:var(--muted);margin:25px 0 18px;max-width:880px}
+button:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+[hidden]{display:none!important}
+@media(max-width:900px){.award-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.worlds-strip{grid-template-columns:repeat(2,1fr)}.worlds-strip>div:nth-child(2){border-right:0}.worlds-strip>div:nth-child(-n+2){border-bottom:1px solid #ffc92825}}
+@media(max-width:600px){.achievements{padding:40px 0 45px}.achievements-heading{grid-template-columns:1fr;gap:12px}.award-grid{grid-template-columns:1fr}.award-card{padding:20px}.worlds-strip>div{padding:18px 14px}.worlds-strip strong{font-size:14px}.site-header nav{flex-wrap:wrap;gap:12px}.award-toolbar{align-items:flex-start}.award-filters button{padding:10px 12px}}
+@media(prefers-reduced-motion:reduce){.award-card{transition:none}.award-card:hover{transform:none}}
+
+
+
+/* Group awards by competition level, while retaining IQ/V5 card colors. */
+.award-grid{display:block}
+.award-group{--category-color:var(--gold);padding:26px;border:1px solid #ffffff16;border-radius:12px;background:#ffffff02;margin-bottom:24px}
+.category-world{--category-color:#ffc928;background:linear-gradient(125deg,#ffc92808,#08090c)}
+.category-national{--category-color:#9ac3ff}
+.category-signature{--category-color:#d7a5ff;background:linear-gradient(125deg,#9b55db0a,#08090c)}
+.category-other{--category-color:#a6aab3}
+.award-group-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-left:14px;border-left:3px solid var(--category-color)}
+.award-group-heading h3{font-size:25px;letter-spacing:.08em;color:var(--category-color);margin:0;font-weight:400}
+.award-group-count{font-size:11px;color:var(--muted)}
+.award-group-description{font-size:12px;color:var(--muted);line-height:1.7;margin:12px 0 24px}
+.award-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media(max-width:900px){.award-group-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.award-group{padding:18px 14px}.award-group-grid{grid-template-columns:1fr}.award-group-heading h3{font-size:21px}}

@@ -1,0 +1,18 @@
+/* Quiet cosmic backdrop for the landing page. */
+body{--bg:#080a0f;background:var(--bg)}
+.hero{position:relative;isolation:isolate}
+.hero-copy,.hero-art{z-index:1}
+.cosmic-backdrop{position:absolute;top:0;bottom:0;left:calc((100% - 100vw)/2);width:100vw;overflow:hidden;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 77% 43%,#12346055,transparent 48%),radial-gradient(ellipse at 65% 65%,#ffc9280c,transparent 34%),linear-gradient(180deg,#080a0f00 75%,#080a0f)}
+.cosmic-backdrop::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080a0fbb,transparent 55%),linear-gradient(0deg,#080a0f,transparent 35%)}
+.cosmic-stars{position:absolute;inset:-30px;opacity:.35;background-image:radial-gradient(circle at 17% 23%,#cbdfff 0 .8px,transparent 1.5px),radial-gradient(circle at 72% 39%,#fff 0 .7px,transparent 1.4px),radial-gradient(circle at 44% 78%,#ffe7a4 0 .7px,transparent 1.5px);background-size:277px 233px,389px 307px,463px 359px;animation:cosmic-drift 48s ease-in-out infinite alternate}
+.cosmic-stars-distant{opacity:.18;background-size:491px 419px,617px 523px,739px 601px;animation:cosmic-drift 65s ease-in-out infinite alternate-reverse,cosmic-twinkle 9s ease-in-out infinite}
+.hero-art::before{background:radial-gradient(ellipse at 65% 35%,#1684ff3b,transparent 60%),radial-gradient(ellipse at 38% 65%,#ffc92822,transparent 58%);opacity:.8}
+.achievements{position:relative;isolation:isolate}
+.award-group{position:relative;isolation:isolate;background:#0a0c10}
+.award-group::before{content:"";position:absolute;inset:0;border-radius:inherit;z-index:-1;pointer-events:none;background:radial-gradient(ellipse 70% 220px at 50% 0,var(--group-halo,#ffc92809),transparent)}
+.category-world{--group-halo:#ffc92812}.category-national{--group-halo:#1684ff10}.category-signature{--group-halo:#a477ff14}.category-other{--group-halo:#ffffff06}
+@keyframes cosmic-drift{from{transform:translate3d(-6px,-5px,0)}to{transform:translate3d(9px,12px,0)}}
+@keyframes cosmic-twinkle{0%,100%{opacity:.14}50%{opacity:.28}}
+@media(max-width:600px){.cosmic-backdrop{background:radial-gradient(ellipse at 60% 70%,#12346044,transparent 45%),linear-gradient(180deg,#080a0f00 80%,#080a0f)}.cosmic-stars{opacity:.25}}
+@media(prefers-reduced-motion:reduce){.cosmic-stars{animation:none}}
+body{overflow-x:clip}

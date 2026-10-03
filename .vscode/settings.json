@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.root": "/public",
+  "liveServer.settings.port": 5500,
+  "files.exclude": { ".local-backup": true },
+  "search.exclude": { ".local-backup": true }
+}

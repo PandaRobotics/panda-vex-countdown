@@ -1,0 +1,22 @@
+/* Decorative space scene; scales without affecting the surrounding layout. */
+.hero-art{overflow:visible}
+.hero-art:focus-visible{outline:1px solid #ffc92866;outline-offset:16px;border-radius:50%}
+.hero-art::before{content:"";position:absolute;inset:-8%;z-index:0;pointer-events:none;border-radius:50%;background:radial-gradient(ellipse at 65% 35%,#1684ff25,transparent 56%),radial-gradient(ellipse at 30% 70%,#ffc92814,transparent 60%);filter:blur(14px);opacity:.65;transition:opacity 800ms ease,transform 1000ms cubic-bezier(.2,.7,.2,1)}
+.space-scene{position:absolute;inset:-5%;z-index:2;pointer-events:none;transition:transform 1000ms cubic-bezier(.2,.7,.2,1)}
+.space-stars{position:absolute;inset:0;border-radius:50%;opacity:.6;background:radial-gradient(circle at 9% 37%,#fff 0 1px,transparent 2px),radial-gradient(circle at 29% 7%,#ffe7a4 0 1px,transparent 2px),radial-gradient(circle at 66% 5%,#fff 0 1px,transparent 2px),radial-gradient(circle at 96% 29%,#91ccff 0 1px,transparent 2px),radial-gradient(circle at 93% 67%,#fff 0 1.5px,transparent 2.5px),radial-gradient(circle at 75% 95%,#ffe7a4 0 1px,transparent 2px),radial-gradient(circle at 23% 93%,#fff 0 1px,transparent 2px),radial-gradient(circle at 4% 72%,#91ccff 0 1px,transparent 2px);transition:opacity 800ms ease}
+.space-planet{position:absolute;width:var(--size);aspect-ratio:1;border-radius:50%;box-shadow:inset -8px -6px 14px #0009,0 0 22px var(--glow);transition:transform 1000ms cubic-bezier(.2,.7,.2,1),box-shadow 1000ms ease}
+.planet-blue{--size:11%;--glow:#1684ff25;left:0;top:38%;background:radial-gradient(circle at 30% 25%,#b0eaff,#318fe2 36%,#132a68 80%)}
+.planet-gold{--size:9%;--glow:#ffc92822;right:8%;top:3%;background:radial-gradient(circle at 30% 25%,#fff1c6,#e6ad47 40%,#66401c 80%)}
+.planet-gold::after{content:"";position:absolute;width:190%;height:35%;left:-45%;top:32%;border:3px solid #e9c27c99;border-left-color:#e9c27c44;border-radius:50%;transform:rotate(-28deg)}
+.planet-red{--size:6%;--glow:#ff343d22;right:1%;bottom:22%;background:radial-gradient(circle at 30% 25%,#ffc69a,#c6503b 40%,#552122 80%)}
+.hero-art img{transition:transform 1000ms cubic-bezier(.2,.7,.2,1),filter 1000ms ease}
+.hero-art .orbit{transition:transform 1000ms cubic-bezier(.2,.7,.2,1),border-color 1000ms ease}
+.art-caption{z-index:3;transition:color 800ms ease}
+@media(hover:hover){.hero-art:hover::before{opacity:1;transform:scale(1.08)}.hero-art:hover .space-scene{transform:scale(1.045)}.hero-art:hover .space-planet{transform:scale(1.12)}.hero-art:hover .space-stars{opacity:1}.hero-art:hover img{transform:scale(1.025);filter:drop-shadow(0 0 12px #ffc92822)}.hero-art:hover .orbit{transform:scale(1.04);border-color:#ffc92844}.hero-art:hover .art-caption{color:#dac591}}
+.hero-art:focus-visible::before{opacity:1;transform:scale(1.08)}
+.hero-art:focus-visible .space-scene{transform:scale(1.045)}
+.hero-art:focus-visible .space-planet{transform:scale(1.12)}
+.hero-art:focus-visible .space-stars{opacity:1}
+.hero-art:focus-visible img{transform:scale(1.025)}
+@media(max-width:600px){.space-scene{inset:0}.planet-blue{left:0}.planet-red{right:0}.planet-gold{right:9%}}
+@media(prefers-reduced-motion:reduce){.hero-art::before,.hero-art img,.hero-art .orbit,.space-scene,.space-stars,.space-planet,.art-caption{transition:none}.hero-art:hover img,.hero-art:hover .space-scene,.hero-art:hover .space-planet,.hero-art:hover .orbit,.hero-art:hover::before,.hero-art:focus-visible img,.hero-art:focus-visible .space-scene,.hero-art:focus-visible .space-planet,.hero-art:focus-visible::before{transform:none}}

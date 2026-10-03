@@ -1,0 +1,29 @@
+.achievements-heading{display:block;margin-bottom:25px}
+.achievements-heading h2{font-size:clamp(32px,4vw,48px)}
+.award-group{padding:22px;margin-bottom:24px}
+.award-group-heading{margin-bottom:22px}
+.award-group-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.photo-card{padding:0;overflow:hidden;border-top-width:2px;background:#10131a}
+.gallery-stage{position:relative;aspect-ratio:4/3;background:#0c1018;overflow:hidden;isolation:isolate}
+.gallery-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#08090c;opacity:0;transition:opacity 650ms ease}
+.gallery-image.is-active{opacity:1;z-index:1}
+.gallery-badge{position:absolute;top:14px;left:14px;z-index:3;padding:6px 10px;border-radius:4px;background:#08090cd9;color:var(--accent);font-size:10px}
+.gallery-empty{height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:14px;color:#a6aab3;font-size:16px;background:radial-gradient(ellipse at center,#1b2539,#0b1018 72%)}
+.gallery-empty span{font-size:11px;color:var(--gold)}
+.gallery-controls{position:absolute;bottom:14px;right:14px;z-index:3;display:flex;align-items:center;gap:7px;background:#08090cd9;padding:4px;border-radius:6px}
+.gallery-button{border:0;color:white;background:transparent;cursor:pointer;font:inherit;min-width:32px;height:32px;font-size:18px;border-radius:4px}
+.gallery-button:hover{background:#ffffff20}.gallery-count{font-size:10px;min-width:36px;text-align:center}
+.gallery-caption{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px}
+.photo-card .gallery-caption h4{font-size:17px;margin:0 0 7px;line-height:1.4}
+.gallery-caption p{font-size:11px;color:var(--muted);margin:0;line-height:1.6}
+.gallery-caption .award-source{font-size:22px;margin:0;padding:6px}
+.gallery-stage:focus-visible{outline:2px solid var(--gold);outline-offset:-3px}
+.gallery-image-error{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted)}
+.award-status:empty{display:none}
+.award-toolbar{margin-bottom:26px}
+@media(max-width:600px){.award-group-grid{grid-template-columns:1fr}.award-group{padding:16px 12px}.gallery-caption{padding:15px}.photo-card .gallery-caption h4{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.gallery-image{transition:none}}
+
+.award-pending{grid-row:3;color:#aaa;font-size:.8rem}.award-pending summary{cursor:pointer;padding:12px 0}.award-pending a{display:block;color:#aaa;padding:7px 0}.award-group:has(.award-pending){display:flex;flex-direction:column}.award-pending{order:3}
+
+.gallery-caption>div{min-width:0;flex:1}.award-name-stage{display:grid;margin-top:8px}.award-name{grid-area:1/1;opacity:0;transition:opacity 650ms ease;color:var(--gold);font-size:14px;line-height:1.6;pointer-events:none}.award-name.is-active{opacity:1}.award-name-controls{display:flex;align-items:center;gap:6px;margin-top:8px;color:var(--muted)}.award-name-count{font-size:10px}.award-name-controls .gallery-button{font-size:16px;min-width:25px;height:25px}.photo-card .gallery-caption h4.event-title{font-size:17px;margin:0}@media(prefers-reduced-motion:reduce){.award-name{transition:none}}
