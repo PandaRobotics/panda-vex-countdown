@@ -88,3 +88,5 @@ if(!key)return '<div>'+value+'</div>';
 const label=value.slice(value.indexOf(key==='calendar'?'Ngày thi:':key==='departure'?'Ngày đi:':key==='arrival'?'Ngày về:':'Nơi thi:'));
 return '<div class="event-detail"><svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">'+paths[key]+'</svg><span>'+escapeAttr(label)+'</span></div>';
 }
+
+$("#floatingNow").addEventListener("click",jumpToNow);
