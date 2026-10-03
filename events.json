@@ -207,32 +207,6 @@
       ],
       "logo": "images/signature.png",
       "important": false
-    },
-    {
-      "id": "test-v5-national",
-      "title": "[TEST] VEX V5 — ",
-      "type": "VEX V5",
-      "date": "2026-09-01T08:43:46+07:00",
-      "endDate": "2026-09-04T18:43:46+07:00",
-      "place": "Hà Nội",
-      "link": "https://events.vex.com/robot-competitions/vex-robotics-competition/RE-V5RC-26-5466.html#general-info",
-      "details": [
-        "&#x1F9EA; Sự kiện thử nghiệm — không phải lịch thi đấu thật",
-        "&#x1F6A9; Ngày thi: 03/10/2026 – 04/10/2026",
-        "&#x2708; Ngày đi: 01/10/2026",
-        "&#x1F681; Ngày về: 05/10/2026",
-        "Thông tin địa điểm và Link Event được sao chép từ Chung Kết Quốc Gia VEX V5."
-      ],
-      "notebook": [
-        {
-          "label": "[TEST] Nộp Notebook VEX V5",
-          "date": "2026-09-26T08:43:46+07:00",
-          "display": "Deadline thử nghiệm: 08:43 26/9/26"
-        }
-      ],
-      "logo": "images/national-v5.png",
-      "important": true,
-      "isTest": true
     }
   ],
   "deadlines": [
