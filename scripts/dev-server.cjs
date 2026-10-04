@@ -2,9 +2,10 @@ const http = require('node:http');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const root = path.resolve(__dirname, '../public');
+const {buildLanding} = require('./build-landing.cjs');
 const {syncGalleries} = require('./sync-galleries.cjs');
 const port = Number(process.env.PORT || 5173);
-const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.webp':'image/webp','.ico':'image/x-icon'};
+const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.webp':'image/webp','.ico':'image/x-icon','.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8'};
 
 http.createServer(async (request,response) => {
   if (!['GET','HEAD'].includes(request.method)) {
@@ -13,6 +14,7 @@ http.createServer(async (request,response) => {
   }
   try {
     const url = new URL(request.url, 'http://localhost');
+    if (url.pathname === '/' || url.pathname === '/index.html') buildLanding();
     if (url.pathname === '/data/achievements.json') syncGalleries();
     const filePath = path.resolve(root, '.' + decodeURIComponent(url.pathname));
     if (filePath !== root && !filePath.startsWith(root + path.sep)) {

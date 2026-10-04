@@ -51,3 +51,9 @@ Với Live Server, chạy `npm run sync:photos` rồi tải lại trang. Trướ
 ## Bật/tắt sự kiện countdown
 Chỉ sửa `public/data/events.json`, không đặt dữ liệu trong JavaScript giao diện. Mỗi giải có `enabled: true` (hiển thị) hoặc `enabled: false` (ẩn). Khi thiếu `enabled`, mặc định vẫn hiển thị. `important` chỉ điều khiển viền, không quyết định hiển thị.
 Deadline độc lập có `eventId` trỏ tới `id` giải: tắt hoặc xoá giải sẽ ẩn deadline liên quan và loại khỏi bảng NOW. Deadline cũng có `enabled` riêng; deadline trong `notebook` hỗ trợ tương tự. Khi thêm giải, dùng `id` duy nhất, điền ngày có múi giờ, logo, notebook và bật `enabled`. Tải lại trang sau khi sửa.
+
+## SEO landing page
+`npm run build` sinh thành tích HTML tĩnh từ achievements.json và ảnh trong thư mục, rồi kiểm tra SEO. Server local cũng sinh lại khi tải trang chủ. Không sửa vùng achievements:start/end bằng tay. Canonical, sitemap và schema trỏ tới tên miền production; bản local chỉ để kiểm tra. Không thêm rating, giá, giờ mở cửa hoặc thông tin khóa học chưa xác nhận vào schema. Logo gốc giữ nguyên, trang chủ sử dụng ảnh nhỏ hơn và srcset.
+
+## Timeline thành tích
+Landing mặc định Ver 1 (ảnh và thông tin song song); nút Ver 2 chuyển sang bố cục so le. Dữ liệu achievements.json giữ thứ tự mới nhất trước; timeline trình bày từ mới nhất đến cũ nhất. Khi thêm giải, đặt đúng vị trí thời gian trong dữ liệu. Chỉ hiển thị ngày đã có trong nguồn, mốc chưa có ngày dùng năm hoặc mùa giải. Thông tin đội và thành tích lấy từ dữ liệu hiện có; không tự tạo mã đội.

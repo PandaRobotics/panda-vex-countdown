@@ -131,35 +131,72 @@
     card.append(stage,caption);
     return card;
   }
+  const revealObserver=new IntersectionObserver(entries=>{for(const entry of entries) if(entry.isIntersecting){entry.target.classList.add('is-revealed');revealObserver.unobserve(entry.target);}},{threshold:0.08});
+  for(const toggle of section.querySelectorAll('[data-timeline-view]')) toggle.addEventListener('click',()=>{
+    grid.dataset.view=toggle.dataset.timelineView;
+    for(const button of section.querySelectorAll('[data-timeline-view]')) button.setAttribute('aria-pressed',String(button===toggle));
+  });
+  const dock=section.querySelector('.achievements-dock');
+  function measureDock(){document.documentElement.style.setProperty('--achievements-dock-height',dock.getBoundingClientRect().height+'px');}
+  new ResizeObserver(measureDock).observe(dock);measureDock();
+  let animating=false,lastGesture=0,touchStartY=null;
+  const screens=()=>[document.querySelector('.hero'),document.querySelector('.intro-screen'),...grid.querySelectorAll('.timeline-event'),document.querySelector('.countdown-callout')].filter(Boolean);
+  function offset(node){return document.querySelector('.site-header').getBoundingClientRect().height+(node.classList.contains('timeline-event')?dock.getBoundingClientRect().height+12:8);}
+  function updateSnap(){const rect=grid.getBoundingClientRect();document.documentElement.classList.toggle('timeline-snap',rect.top<innerHeight*.65&&rect.bottom>innerHeight*.35);}
+  addEventListener('scroll',updateSnap,{passive:true});addEventListener('resize',updateSnap,{passive:true});
+  function goScreen(direction){
+    const nodes=screens();const nearest=nodes.reduce((best,node,i)=>Math.abs(node.getBoundingClientRect().top-offset(node))<Math.abs(nodes[best].getBoundingClientRect().top-offset(nodes[best]))?i:best,0);
+    if(nearest===nodes.length-1&&direction>0)return false;
+    const index=Math.max(0,Math.min(nodes.length-1,nearest+direction)),target=nodes[index];
+    animating=true;const from=scrollY,start=performance.now(),duration=reduced.matches?0:650;
+    function frame(now){const progress=duration?Math.min(1,(now-start)/duration):1;const destination=Math.max(0,target.getBoundingClientRect().top+scrollY-offset(target));const eased=1-Math.pow(1-progress,3);window.scrollTo({top:from+(destination-from)*eased,behavior:'instant'});if(progress<1)requestAnimationFrame(frame);else animating=false;}
+    requestAnimationFrame(frame);return true;
+  }
+  addEventListener('wheel',event=>{
+    if(event.ctrlKey||Math.abs(event.deltaX)>Math.abs(event.deltaY)||Math.abs(event.deltaY)<1||event.target.closest('.timeline-results,.timeline-notes[open],select,iframe,.panda-footer'))return;
+    const last=screens().at(-1);if(last.getBoundingClientRect().bottom<innerHeight*.3)return;
+    const now=performance.now(),continued=now-lastGesture<200;lastGesture=now;
+    if(animating||continued){event.preventDefault();return;}
+    if(goScreen(event.deltaY>0?1:-1))event.preventDefault();
+  },{passive:false});
+  addEventListener('touchstart',event=>{touchStartY=event.touches[0]?.clientY??null;},{passive:true});
+  addEventListener('touchend',event=>{if(touchStartY===null||event.target.closest('.timeline-results,.panda-footer,select'))return;const delta=touchStartY-event.changedTouches[0].clientY;touchStartY=null;if(Math.abs(delta)>25&&!animating)goScreen(delta>0?1:-1);},{passive:true});
   function render() {
     galleries = [];
     const selected = records.filter(record =>
       (system === 'all' || record.system === system) &&
       (season.value === 'all' || record.season === season.value));
     const fragment = document.createDocumentFragment();
-    for (const category of categories) {
-      const entries = selected.filter(record => record.category === category.id);
-      if (!entries.some(record => record.photos?.length)) continue;
-      const group = el('section','award-group category-'+category.id);
-      const heading = el('h3','',category.title);
-      heading.id = 'award-group-'+category.id;
-      group.setAttribute('aria-labelledby',heading.id);
-      const header = el('div','award-group-heading'); header.append(heading);
-      const cards = el('div','award-group-grid');
-      const pending = el('details','award-pending');
-      const missing = entries.filter(record => !record.photos?.length);
-      pending.append(el('summary','', 'Đang bổ sung ảnh · '+missing.length+' sự kiện'));
-      for (const record of entries) {
-        if (record.photos?.length) cards.append(gallery(record));
-        else {
-          const link = el('a','',record.event+' · '+record.awards.join(' / '));
-          link.href=record.source; link.target='_blank'; link.rel='noopener noreferrer'; pending.append(link);
-        }
-      }
-      
-      group.append(header,cards); fragment.append(group);
-    }
+    grid.classList.add('achievement-timeline');
+    if (!grid.dataset.view) grid.dataset.view='1';
+    const entries=selected.filter(record=>record.photos?.length);
+    entries.forEach((record,index)=>{
+      const row=el('section','timeline-event category-'+record.category);
+      const label=record.date ? new Date(record.date+'T12:00:00').toLocaleDateString('vi-VN') : record.detail.match(/(?:\d{1,2}[–-])?\d{1,2}\/\d{1,2}\/\d{4}|\d{1,2}\/\d{4}/)?.[0] || record.event.match(/20\d{2}/)?.[0] || 'Mùa '+record.season;
+      const marker=el('div','timeline-marker');marker.append(el('span','timeline-step',label));
+      const photo=gallery(record);photo.querySelector('h4')?.remove();photo.querySelector('.event-detail')?.remove();
+      const info=el('div','timeline-information');
+      const category=categories.find(c=>c.id===record.category)?.title || record.category;
+      info.append(el('p','timeline-category',category+' / VEX '+record.system),el('h3','',record.event),el('p','timeline-season','Mùa giải '+record.season));
+      if(record.detail) info.append(el('p','timeline-detail',record.detail));
+      const ids=[...new Set((record.teams||[]).map(t=>t.id).concat((record.detail+' '+record.awards.join(' ')).match(/62024[A-Z]/g)||[]))];
+      const teams=el('div','timeline-teams');
+      for(const id of ids.length ? ids : ['Panda Robotics']) teams.append(el('span','timeline-team',id==='Panda Robotics'?id:'Panda Robotics · '+id));
+      info.append(teams);
+      const list=el('ul','timeline-results');for(const award of record.awards) list.append(el('li','',award));
+      const results=el('details','timeline-awards');results.append(el('summary','','Thành tích · '+record.awards.length+' ↗'),list);
+      results.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')results.open=true;});
+      results.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'&&!results.contains(document.activeElement))results.open=false;});
+      results.addEventListener('focusout',event=>{if(!results.contains(event.relatedTarget))results.open=false;});
+      info.append(results);
+      if(record.resultNotes) {const more=el('details','timeline-notes');more.append(el('summary','','Chi tiết thành tích'),el('p','',record.resultNotes));info.append(more);}
+      const source=el('a','timeline-source','Xem bài viết ↗');source.href=record.postSource||record.source;source.target='_blank';source.rel='noopener noreferrer';info.append(source);
+      row.append(marker,photo,info);fragment.append(row);
+    });
     grid.replaceChildren(fragment);
+    updateSnap();
+    revealObserver.disconnect();
+    for(const row of grid.querySelectorAll('.timeline-event')) revealObserver.observe(row);
     status.textContent = selected.length ? '' : 'Chưa có thành tích cho lựa chọn này.';
     for (const filter of filters) filter.setAttribute('aria-pressed',String(filter.dataset.systemFilter === system));
   }
@@ -174,6 +211,6 @@
       const option=el('option','',value);option.value=value;season.append(option);
     }
     render(); section.querySelector('.award-toolbar').hidden=false;
-  }).catch(error=>{status.textContent='Chưa tải được thành tích. Vui lòng tải lại trang.';console.error(error);})
+  }).catch(error=>{status.textContent=grid.querySelector('.photo-card')?'Slideshow chưa tải được. Bạn vẫn có thể xem thành tích bên dưới.':'Chưa tải được thành tích. Vui lòng tải lại trang.';console.error(error);})
     .finally(()=>grid.setAttribute('aria-busy','false'));
 })();

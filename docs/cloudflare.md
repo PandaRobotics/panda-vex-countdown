@@ -5,7 +5,7 @@ Website có nguồn duy nhất trong `public/`, cùng cấu trúc dùng trên lo
 - Repository: PandaRobotics/panda-vex-countdown
 - Production branch: main
 - Framework: None
-- Build command: `exit 0`
+- Build command: `npm run build`
 - Build output directory: `public`
 - Root directory: thư mục repository (để trống)
 - Không cần biến môi trường hoặc cài dependencies.

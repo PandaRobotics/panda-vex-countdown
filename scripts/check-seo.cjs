@@ -1,0 +1,18 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../public'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+assert.equal((html.match(/<h1\b/g)||[]).length,1);
+assert.equal((html.match(/rel="canonical"/g)||[]).length,1);
+assert.match(html,/rel="canonical" href="https:\/\/pandarobotics.edu.vn\/"/);
+assert.match(html,/<html lang="vi">/);
+assert.match(html,/name="description" content="Panda Robotics/);
+for(const key of ['og:title','og:description','og:url','og:image']) assert.match(html,new RegExp('property="'+key+'"'));
+const graph=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
+assert.equal(graph.length,3);assert.equal(graph[0].name,'Panda Robotics');assert.equal(graph[0].email,'pandarobotics.coach@gmail.com');
+const records=JSON.parse(fs.readFileSync(path.join(root,'data/achievements.json'),'utf8')).filter(r=>r.photos?.length);
+assert.equal((html.match(/class="award-card photo-card /g)||[]).length,records.length);
+assert.ok(!html.includes('panda-robotics.png'));assert.match(html,/srcset="[^"]+640w,[^"]+1280w"/);
+const png=fs.readFileSync(path.join(root,'assets/images/brand/panda-social.png'));assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
+assert.match(fs.readFileSync(path.join(root,'robots.txt'),'utf8'),/Sitemap: https:\/\/pandarobotics.edu.vn\/sitemap.xml/);
+const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');assert.equal((sitemap.match(/<loc>/g)||[]).length,2);
+assert.match(fs.readFileSync(path.join(root,'404.html'),'utf8'),/noindex,follow/);
+console.log('SEO checks passed: metadata, schema, '+records.length+' static events, responsive logo, social image, robots, sitemap, 404.');
