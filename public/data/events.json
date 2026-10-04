@@ -13,7 +13,8 @@
       ],
       "notebook": [],
       "logo": "../assets/images/events/scrimmage-iq.png",
-      "important": false
+      "important": false,
+      "enabled": true
     },
     {
       "id": "v5-scrimmage",
@@ -28,7 +29,8 @@
       ],
       "notebook": [],
       "logo": "../assets/images/events/scrimmage-v5.png",
-      "important": false
+      "important": false,
+      "enabled": true
     },
     {
       "id": "v5-qualifier-1",
@@ -50,7 +52,8 @@
         }
       ],
       "logo": "../assets/images/events/qualifier-v5.png",
-      "important": true
+      "important": true,
+      "enabled": true
     },
     {
       "id": "iq-qualifier-1",
@@ -71,7 +74,8 @@
         }
       ],
       "logo": "../assets/images/events/qualifier-iq.png",
-      "important": true
+      "important": true,
+      "enabled": true
     },
     {
       "id": "iq-qualifier-2",
@@ -94,7 +98,8 @@
         }
       ],
       "logo": "../assets/images/events/qualifier-iq.png",
-      "important": true
+      "important": true,
+      "enabled": true
     },
     {
       "id": "v5-qualifier-2",
@@ -115,7 +120,8 @@
         }
       ],
       "logo": "../assets/images/events/qualifier-v5.png",
-      "important": true
+      "important": true,
+      "enabled": true
     },
     {
       "id": "v5-signature-yixing",
@@ -132,13 +138,14 @@
       ],
       "notebook": [
         {
-          "label": "In Notebook cho các team VEX V5 và VEX IQ (Mỗi team 2 bộ)",
+          "label": "Notebook nộp bảng cứng cho từng đội",
           "date": "2026-12-10T00:00:00+07:00",
           "display": "Trước 24h00 10/12/2026 - Notebook mang theo nộp"
         }
       ],
       "logo": "../assets/images/events/signature.png",
-      "important": true
+      "important": true,
+      "enabled": true
     },
     {
       "id": "v5-national",
@@ -161,7 +168,8 @@
         }
       ],
       "logo": "../assets/images/events/national-v5.png",
-      "important": true
+      "important": true,
+      "enabled": true
     },
     {
       "id": "iq-national",
@@ -184,7 +192,8 @@
         }
       ],
       "logo": "../assets/images/events/national-iq.png",
-      "important": true
+      "important": true,
+      "enabled": true
     },
     {
       "id": "v5-signature-ssis",
@@ -206,7 +215,8 @@
         }
       ],
       "logo": "../assets/images/events/signature.png",
-      "important": false
+      "important": false,
+      "enabled": true
     }
   ],
   "deadlines": [
@@ -216,7 +226,9 @@
       "type": "VEX V5",
       "date": "2026-10-21T22:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX V5 — Qualifier 1 - Hà Nội"
+      "forEvent": "VEX V5 — Qualifier 1 - Hà Nội",
+      "enabled": true,
+      "eventId": "v5-qualifier-1"
     },
     {
       "id": "iq-nb-1",
@@ -224,7 +236,9 @@
       "type": "VEX IQ",
       "date": "2026-11-07T00:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX IQ — Qualifier 1 - TAS TPHCM"
+      "forEvent": "VEX IQ — Qualifier 1 - TAS TPHCM",
+      "enabled": true,
+      "eventId": "iq-qualifier-1"
     },
     {
       "id": "iq-nb-2",
@@ -232,7 +246,9 @@
       "type": "VEX IQ",
       "date": "2026-11-10T22:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX IQ — Qualifier 2 - Đà Nẵng"
+      "forEvent": "VEX IQ — Qualifier 2 - Đà Nẵng",
+      "enabled": true,
+      "eventId": "iq-qualifier-2"
     },
     {
       "id": "v5-nb-2",
@@ -240,7 +256,9 @@
       "type": "VEX V5",
       "date": "2026-11-28T00:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX V5 — Qualifier 2 - SSIS TPHCM"
+      "forEvent": "VEX V5 — Qualifier 2 - SSIS TPHCM",
+      "enabled": true,
+      "eventId": "v5-qualifier-2"
     },
     {
       "id": "print-notebook-dec10",
@@ -248,7 +266,9 @@
       "type": "VEX V5",
       "date": "2026-12-10T00:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX — Signature - Wuxing Trung Quốc"
+      "forEvent": "VEX — Signature - Wuxing Trung Quốc",
+      "enabled": false,
+      "eventId": "v5-signature-yixing"
     },
     {
       "id": "v5-nb-3",
@@ -256,7 +276,9 @@
       "type": "VEX V5",
       "date": "2026-12-21T20:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX V5 — Vòng Chung Kết Quốc Gia"
+      "forEvent": "VEX V5 — Vòng Chung Kết Quốc Gia",
+      "enabled": true,
+      "eventId": "v5-national"
     },
     {
       "id": "iq-nb-5",
@@ -264,7 +286,9 @@
       "type": "VEX IQ",
       "date": "2027-01-10T20:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX IQ — Vòng Chung Kết Quốc Gia"
+      "forEvent": "VEX IQ — Vòng Chung Kết Quốc Gia",
+      "enabled": true,
+      "eventId": "iq-national"
     },
     {
       "id": "v5-nb-4",
@@ -272,7 +296,9 @@
       "type": "VEX V5",
       "date": "2027-01-15T00:00:00+07:00",
       "kind": "deadline",
-      "forEvent": "VEX V5 - Signature HS - SSIS TPHCM"
+      "forEvent": "VEX V5 - Signature HS - SSIS TPHCM",
+      "enabled": true,
+      "eventId": "v5-signature-ssis"
     }
   ]
 }

@@ -47,3 +47,7 @@ Bỏ `award` khi ảnh chung của sự kiện phù hợp với tất cả giả
 ## Ảnh từng giải đấu
 Mỗi sự kiện có thư mục riêng trong `public/assets/images/achievements/`, khai báo bằng `photoFolder` trong `public/data/achievements.json`. Thêm hoặc xoá ảnh JPG, PNG, WebP, GIF, AVIF trong thư mục, rồi tải lại trang khi chạy `npm run dev`. Thứ tự theo tên file; dùng tiền tố 01, 02 để sắp xếp. Ảnh xoá khỏi thư mục sẽ biến mất khỏi slideshow.
 Với Live Server, chạy `npm run sync:photos` rồi tải lại trang. Trước triển khai static hosting, chạy `npm run build` để cập nhật danh sách ảnh; trên Cloudflare dùng build command `npm run build`, output directory `public`. Trình duyệt trên hosting tĩnh không tự đọc thư mục, nên cần build và deploy lại sau khi thay ảnh.
+
+## Bật/tắt sự kiện countdown
+Chỉ sửa `public/data/events.json`, không đặt dữ liệu trong JavaScript giao diện. Mỗi giải có `enabled: true` (hiển thị) hoặc `enabled: false` (ẩn). Khi thiếu `enabled`, mặc định vẫn hiển thị. `important` chỉ điều khiển viền, không quyết định hiển thị.
+Deadline độc lập có `eventId` trỏ tới `id` giải: tắt hoặc xoá giải sẽ ẩn deadline liên quan và loại khỏi bảng NOW. Deadline cũng có `enabled` riêng; deadline trong `notebook` hỗ trợ tương tự. Khi thêm giải, dùng `id` duy nhất, điền ngày có múi giờ, logo, notebook và bật `enabled`. Tải lại trang sau khi sửa.

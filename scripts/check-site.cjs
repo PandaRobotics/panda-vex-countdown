@@ -32,8 +32,13 @@ const eventIds = new Set();
 for (const event of events.events) {
   assert(!eventIds.has(event.id), 'Duplicate event: '+event.id);
   eventIds.add(event.id);
+  assert(event.enabled === undefined || typeof event.enabled === 'boolean','Invalid enabled: '+event.id);
   assert(Number.isFinite(Date.parse(event.date)),'Invalid date: '+event.id);
   localReference(path.join(root,'vex-countdown'),event.logo);
+}
+for (const deadline of events.deadlines || []) {
+  assert(deadline.enabled === undefined || typeof deadline.enabled === 'boolean','Invalid enabled: '+deadline.id);
+  assert(!deadline.eventId || eventIds.has(deadline.eventId),'Invalid deadline eventId: '+deadline.id);
 }
 const awards = JSON.parse(fs.readFileSync(path.join(root,'data/achievements.json'),'utf8'));
 for (const award of awards) {

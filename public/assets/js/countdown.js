@@ -37,7 +37,7 @@ function tick(){updateClocks();updateNow()}
 document.querySelectorAll("[data-filter]").forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.filter;document.querySelectorAll("[data-filter]").forEach(x=>x.classList.toggle("active",x===b));render()}));
 $("#jumpNow").addEventListener("click",jumpToNow);
 window.addEventListener("resize",updateNow);
-fetch("../data/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("events.json load failed");return r.json()}).then(d=>{DATA=d;render();setInterval(tick,1000)}).catch(e=>{$("#items").innerHTML='<p class="empty">Không tải được events.json. Kiểm tra public/data/events.json.</p>';console.error(e)});
+fetch("../data/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("events.json load failed");return r.json()}).then(d=>{const activeEvents=(d.events||[]).filter(event=>event.enabled!==false);const activeIds=new Set(activeEvents.map(event=>event.id));DATA={...d,events:activeEvents.map(event=>({...event,notebook:(event.notebook||[]).filter(note=>note.enabled!==false)})),deadlines:(d.deadlines||[]).filter(deadline=>deadline.enabled!==false&&(!deadline.eventId||activeIds.has(deadline.eventId)))};render();setInterval(tick,1000)}).catch(e=>{$("#items").innerHTML='<p class="empty">Không tải được events.json. Kiểm tra public/data/events.json.</p>';console.error(e)});
 
 // Fixed header with reserved full-size space prevents scroll/layout feedback.
 function initShrinkingHeader(){
