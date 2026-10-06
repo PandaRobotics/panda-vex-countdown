@@ -103,3 +103,6 @@
 
 body>.floating-top{position:fixed!important;right:max(20px,env(safe-area-inset-right))!important;bottom:max(24px,env(safe-area-inset-bottom))!important;top:auto!important;z-index:100;width:54px!important;height:62px!important;display:flex!important;flex-direction:column;border-radius:16px;box-shadow:0 8px 24px #0007;animation:top-button-float 4s ease-in-out infinite}
 @keyframes top-button-float{50%{translate:0 -5px}}@media(prefers-reduced-motion:reduce){body>.floating-top{animation:none}}
+
+/* The award list replaces the duplicate overlay on the photograph. */
+.season-timeline .showcase-info{padding-right:14px}
