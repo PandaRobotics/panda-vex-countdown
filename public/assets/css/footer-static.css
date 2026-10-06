@@ -1,0 +1,3 @@
+/* Shared natural-flow footer on landing and countdown. */
+:root{--footer-bar-height:0px}.panda-footer{position:relative;overflow:visible;padding-top:24px}.panda-footer .footer-bar{height:64px;min-height:64px}.footer-details{display:block;opacity:1;visibility:visible;transform:none;transition:none}.footer-dock{display:none!important}.footer-bar .footer-zalo{margin-right:0;margin-left:auto}.panda-footer,.panda-footer *{font-family:Arial,Helvetica,sans-serif!important}.footer-contact,.footer-message p{font-size:14px;line-height:1.7}.footer-contact span{font-size:12px}
+@media(max-width:600px){.panda-footer .footer-bar{height:auto;min-height:72px}}

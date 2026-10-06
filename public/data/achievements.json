@@ -1,51 +1,6 @@
 [
   {
-    "season": "2025–2026",
-    "system": "V5",
-    "event": "VEX Worlds 2026",
     "detail": "Push Back · 62024P (High School), 62024N (Middle School)",
-    "awards": [
-      "62024P · Top 2 Pit Design Contest",
-      "62024P · Math Division hạng 16/83",
-      "62024P · Robot Skills hạng 66",
-      "62024P · Vào vòng loại trực tiếp R16",
-      "62024N · Robot Skills hạng 34/424",
-      "62024N · Head-to-Head hạng 64"
-    ],
-    "source": "https://www.facebook.com/share/p/1Z7zJAbbr9/",
-    "category": "world",
-    "photos": [
-      {
-        "src": "assets/images/achievements/vex-worlds-2026-v5-2025-2026/facebook-940388828707842.jpg",
-        "alt": "Panda Robotics · VEX Worlds 2026",
-        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2026-v5-2025-2026/facebook-940388832041175.jpg",
-        "alt": "Panda Robotics · VEX Worlds 2026",
-        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2026-v5-2025-2026/facebook-942717915141600.jpg",
-        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
-        "team": "62024N",
-        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2026-v5-2025-2026/facebook-942717931808265.jpg",
-        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
-        "team": "62024N",
-        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2026-v5-2025-2026/facebook-942717998474925.jpg",
-        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
-        "team": "62024N",
-        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/vex-worlds-2026-v5-2025-2026",
-    "teamName": "Panda Robotics",
     "additionalSources": [
       "https://www.facebook.com/share/p/1E7EnNsC3c/"
     ],
@@ -99,34 +54,115 @@
         "rank": 64,
         "source": "https://www.facebook.com/share/p/1E7EnNsC3c/"
       }
+    ],
+    "id": "vex-worlds-2026-v5",
+    "season": "2025–2026",
+    "seasonName": "2025–2026 Push Back",
+    "event": "VEX Worlds 2026",
+    "system": "V5",
+    "category": "world",
+    "time": {
+      "start": null,
+      "end": null,
+      "label": "Ngày chưa xác nhận"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1Z7zJAbbr9/",
+    "postSource": "https://www.facebook.com/share/p/1Z7zJAbbr9/",
+    "photoFolder": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · VEX Worlds 2026",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-940388828707842.jpg"
+      },
+      {
+        "alt": "Panda Robotics · VEX Worlds 2026",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "awardId": "01-top-2-pit-design-contest",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-940388832041175.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
+        "team": "62024N",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-942717915141600.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
+        "team": "62024N",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-942717931808265.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
+        "team": "62024N",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-942717998474925.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · VEX Worlds 2026",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-940388828707842.jpg"
+      },
+      {
+        "alt": "Panda Robotics · VEX Worlds 2026",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "awardId": "01-top-2-pit-design-contest",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-940388832041175.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
+        "team": "62024N",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-942717915141600.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
+        "team": "62024N",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-942717931808265.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · hoạt động nhóm tại VEX Worlds 2026",
+        "team": "62024N",
+        "source": "https://www.facebook.com/share/p/1DLBRGP2zo/",
+        "src": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/shared/facebook-942717998474925.jpg"
+      }
+    ],
+    "awards": [
+      "62024P · Top 2 Pit Design Contest",
+      "62024P · Vào vòng loại trực tiếp R16"
+    ],
+    "awardItems": [
+      {
+        "id": "01-top-2-pit-design-contest",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Top 2 Pit Design Contest",
+        "label": "62024P · Top 2 Pit Design Contest",
+        "photoFolder": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/awards/62024p/01-top-2-pit-design-contest",
+        "photos": []
+      },
+      {
+        "id": "04-vao-vong-loai-truc-tiep-r16",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Vào vòng loại trực tiếp R16",
+        "label": "62024P · Vào vòng loại trực tiếp R16",
+        "photoFolder": "assets/images/achievements/2025-2026/vex-worlds-2026-v5/awards/62024p/04-vao-vong-loai-truc-tiep-r16",
+        "photos": []
+      }
     ]
   },
   {
-    "season": "2025–2026",
-    "system": "V5",
-    "event": "New Year Mayhem Signature",
     "detail": "Vietnam Signature New Year Mayhem · 66 đội quốc tế",
-    "awards": [
-      "62024P · Amaze Award"
-    ],
-    "source": "https://www.facebook.com/share/p/1EdzAUWmya/",
-    "category": "signature",
-    "photos": [
-      {
-        "src": "assets/images/achievements/new-year-mayhem-signature-v5-2025-2026/facebook-882221787857880.jpg",
-        "alt": "Panda Robotics · New Year Mayhem Signature",
-        "source": "https://www.facebook.com/share/p/1EdzAUWmya/"
-      },
-      {
-        "src": "assets/images/achievements/new-year-mayhem-signature-v5-2025-2026/facebook-882221797857879.jpg",
-        "alt": "Panda Robotics · New Year Mayhem Signature",
-        "source": "https://www.facebook.com/share/p/1EdzAUWmya/"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/new-year-mayhem-signature-v5-2025-2026",
-    "teamName": "Panda Robotics",
-    "postSource": "https://www.facebook.com/share/p/1EdzAUWmya/",
-    "date": "2026-02-06",
     "endDate": "2026-02-08",
     "displayDetail": "06–08/02/2026 · Việt Nam · 62024P",
     "teams": [
@@ -142,85 +178,267 @@
         "category": "Amaze Award",
         "source": "https://www.facebook.com/share/p/1EdzAUWmya/"
       }
+    ],
+    "description": "",
+    "location": "",
+    "id": "new-year-mayhem-signature-v5",
+    "season": "2025–2026",
+    "seasonName": "2025–2026 Push Back",
+    "event": "Việt Nam New Year Mayhem Signature",
+    "system": "V5",
+    "category": "signature",
+    "date": "2026-02-06",
+    "time": {
+      "start": "2026-02-06",
+      "end": null,
+      "label": "2026-02-06"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1EdzAUWmya/",
+    "postSource": "https://www.facebook.com/share/p/1EdzAUWmya/",
+    "photoFolder": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/shared",
+    "photos": [
+      {
+        "src": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/shared/628317591_882223324524393_373661753725187172_n.jpg",
+        "alt": "Panda Robotics · Việt Nam New Year Mayhem Signature",
+        "source": "https://www.facebook.com/share/p/1EdzAUWmya/"
+      },
+      {
+        "alt": "Panda Robotics · New Year Mayhem Signature",
+        "source": "https://www.facebook.com/share/p/1EdzAUWmya/",
+        "awardId": "01-amaze-award",
+        "src": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/shared/facebook-882221787857880.jpg"
+      },
+      {
+        "alt": "Panda Robotics · New Year Mayhem Signature",
+        "source": "https://www.facebook.com/share/p/1EdzAUWmya/",
+        "src": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/shared/facebook-882221797857879.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "src": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/shared/628317591_882223324524393_373661753725187172_n.jpg",
+        "alt": "Panda Robotics · Việt Nam New Year Mayhem Signature",
+        "source": "https://www.facebook.com/share/p/1EdzAUWmya/"
+      },
+      {
+        "alt": "Panda Robotics · New Year Mayhem Signature",
+        "source": "https://www.facebook.com/share/p/1EdzAUWmya/",
+        "awardId": "01-amaze-award",
+        "src": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/shared/facebook-882221787857880.jpg"
+      },
+      {
+        "alt": "Panda Robotics · New Year Mayhem Signature",
+        "source": "https://www.facebook.com/share/p/1EdzAUWmya/",
+        "src": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/shared/facebook-882221797857879.jpg"
+      }
+    ],
+    "awards": [
+      "62024P · Amaze Award"
+    ],
+    "awardItems": [
+      {
+        "id": "01-amaze-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Amaze Award",
+        "label": "62024P · Amaze Award",
+        "photoFolder": "assets/images/achievements/2025-2026/new-year-mayhem-signature-v5/awards/62024p/01-amaze-award",
+        "photos": []
+      }
     ]
   },
   {
+    "detail": "10–11/01/2026 · Hà Nội · 62024P 62024N 62024A",
+    "displayDetail": "",
+    "description": "",
+    "location": "",
+    "id": "chung-ket-quoc-gia-2026-v5",
     "season": "2025–2026",
-    "system": "V5",
+    "seasonName": "2025–2026 Push Back",
     "event": "Chung kết Quốc gia 2026",
-    "detail": "10–11/01/2026 · Hà Nội · Middle School",
+    "system": "V5",
+    "category": "national",
+    "time": {
+      "start": null,
+      "end": null,
+      "label": "10–11/01/2026"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+    "postSource": "https://www.facebook.com/share/p/193GUKCnJB/",
+    "photoFolder": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared",
+    "photos": [
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615257271_861154509964608_429853564155554375_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615400657_861154143297978_5821012028532715654_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615446453_861154809964578_8115541552183887487_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615460578_861153953297997_29582212250076752_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615773058_861153879964671_3061294840450887228_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615870969_861154359964623_1246242131796296029_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "awardId": "03-judges-award",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/616561162_861154779964581_4740310366991611111_n.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "awardId": "02-robot-skills-champion",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/facebook-861152986631427.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "awardId": "04-amaze-award",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/facebook-861153003298092.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "awardId": "01-tournament-champions",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/facebook-861153429964716.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615257271_861154509964608_429853564155554375_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615400657_861154143297978_5821012028532715654_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615446453_861154809964578_8115541552183887487_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615460578_861153953297997_29582212250076752_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615773058_861153879964671_3061294840450887228_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/615870969_861154359964623_1246242131796296029_n.jpg",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+      },
+      {
+        "awardId": "03-judges-award",
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/616561162_861154779964581_4740310366991611111_n.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "awardId": "02-robot-skills-champion",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/facebook-861152986631427.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "awardId": "04-amaze-award",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/facebook-861153003298092.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
+        "source": "https://www.facebook.com/share/p/193GUKCnJB/",
+        "awardId": "01-tournament-champions",
+        "src": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/shared/facebook-861153429964716.jpg"
+      }
+    ],
     "awards": [
       "62024N · Tournament Champions",
       "62024N · Robot Skills Champion",
       "62024N · Judges Award",
       "62024A · Amaze Award"
     ],
-    "source": "https://www.facebook.com/share/p/193GUKCnJB/",
-    "category": "national",
-    "photos": [
+    "awardItems": [
       {
-        "src": "assets/images/achievements/chung-ket-quoc-gia-2026-v5-2025-2026/facebook-861152986631427.jpg",
-        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
-        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+        "id": "01-tournament-champions",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024N"
+        ],
+        "name": "Tournament Champions",
+        "label": "62024N · Tournament Champions",
+        "photoFolder": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/awards/62024n/01-tournament-champions",
+        "photos": []
       },
       {
-        "src": "assets/images/achievements/chung-ket-quoc-gia-2026-v5-2025-2026/facebook-861153003298092.jpg",
-        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
-        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+        "id": "02-robot-skills-champion",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024N"
+        ],
+        "name": "Robot Skills Champion",
+        "label": "62024N · Robot Skills Champion",
+        "photoFolder": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/awards/62024n/02-robot-skills-champion",
+        "photos": []
       },
       {
-        "src": "assets/images/achievements/chung-ket-quoc-gia-2026-v5-2025-2026/facebook-861153429964716.jpg",
-        "alt": "Panda Robotics · Chung kết Quốc gia 2026",
-        "source": "https://www.facebook.com/share/p/193GUKCnJB/"
+        "id": "03-judges-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024N"
+        ],
+        "name": "Judges Award",
+        "label": "62024N · Judges Award",
+        "photoFolder": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/awards/62024n/03-judges-award",
+        "photos": []
+      },
+      {
+        "id": "04-amaze-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024A"
+        ],
+        "name": "Amaze Award",
+        "label": "62024A · Amaze Award",
+        "photoFolder": "assets/images/achievements/2025-2026/chung-ket-quoc-gia-2026-v5/awards/62024a/04-amaze-award",
+        "photos": []
       }
-    ],
-    "photoFolder": "assets/images/achievements/chung-ket-quoc-gia-2026-v5-2025-2026",
-    "teamName": "Panda Robotics"
+    ]
   },
   {
-    "season": "2025–2026",
-    "system": "V5",
-    "event": "VEX Asia Open Signature",
     "detail": "12/2025 · Bắc Kinh · High School · 62024P",
-    "awards": [
-      "62024P · Excellence Award",
-      "62024P · Robot Skills Challenge hạng 3",
-      "62024P · Chung kết Liên minh hạng 3"
-    ],
-    "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
-    "category": "signature",
-    "photos": [
-      {
-        "src": "assets/images/achievements/vex-asia-open-signature-v5-2025-2026/facebook-842263395187053.jpg",
-        "alt": "Panda Robotics · VEX Asia Open Signature",
-        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/"
-      },
-      {
-        "src": "assets/images/achievements/vex-asia-open-signature-v5-2025-2026/facebook-842507198496006.jpg",
-        "alt": "Panda Robotics · VEX Asia Open Signature",
-        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/"
-      },
-      {
-        "src": "assets/images/achievements/vex-asia-open-signature-v5-2025-2026/facebook-842507211829338.jpg",
-        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
-        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/"
-      },
-      {
-        "src": "assets/images/achievements/vex-asia-open-signature-v5-2025-2026/facebook-842507245162668.jpg",
-        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
-        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/"
-      },
-      {
-        "src": "assets/images/achievements/vex-asia-open-signature-v5-2025-2026/facebook-842507258496000.jpg",
-        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
-        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/vex-asia-open-signature-v5-2025-2026",
-    "teamName": "Panda Robotics",
-    "postSource": "https://www.facebook.com/share/p/1Cq53i1G5s/",
     "location": "Bắc Kinh, Trung Quốc",
-    "displayDetail": "Bắc Kinh, Trung Quốc · Panda Robotics 62024P",
+    "displayDetail": "Bắc Kinh, Trung Quốc · Panda Robotics 62024P 62024N 62024A",
     "resultNotes": "Theo bài fanpage, 62024P là đội Việt Nam đầu tiên giành suất tham dự VEX Worlds 2026 tại St. Louis, Hoa Kỳ.",
     "results": [
       {
@@ -246,57 +464,126 @@
         "id": "62024P",
         "name": "Panda Robotics"
       }
+    ],
+    "description": "",
+    "id": "vex-asia-open-signature-v5",
+    "season": "2025–2026",
+    "seasonName": "2025–2026 Push Back",
+    "event": "VEX Asia Open Signature",
+    "system": "V5",
+    "category": "signature",
+    "time": {
+      "start": null,
+      "end": null,
+      "label": "12/2025"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+    "postSource": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+    "photoFolder": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842263395187053.jpg"
+      },
+      {
+        "alt": "Panda Robotics · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507198496006.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "awardId": "01-excellence-award",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507211829338.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "awardId": "02-robot-skills-challenge-hang-3",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507245162668.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "awardId": "03-chung-ket-lien-minh-hang-3",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507258496000.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842263395187053.jpg"
+      },
+      {
+        "alt": "Panda Robotics · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507198496006.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "awardId": "01-excellence-award",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507211829338.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "awardId": "02-robot-skills-challenge-hang-3",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507245162668.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024P · VEX Asia Open Signature",
+        "source": "https://www.facebook.com/share/p/1Cq53i1G5s/",
+        "awardId": "03-chung-ket-lien-minh-hang-3",
+        "src": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/shared/facebook-842507258496000.jpg"
+      }
+    ],
+    "awards": [
+      "62024P · Excellence Award",
+      "62024P · Robot Skills Challenge hạng 3",
+      "62024P · Chung kết Liên minh hạng 3"
+    ],
+    "awardItems": [
+      {
+        "id": "01-excellence-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Excellence Award",
+        "label": "62024P · Excellence Award",
+        "photoFolder": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/awards/62024p/01-excellence-award",
+        "photos": []
+      },
+      {
+        "id": "02-robot-skills-challenge-hang-3",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Robot Skills Challenge hạng 3",
+        "label": "62024P · Robot Skills Challenge hạng 3",
+        "photoFolder": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/awards/62024p/02-robot-skills-challenge-hang-3",
+        "photos": []
+      },
+      {
+        "id": "03-chung-ket-lien-minh-hang-3",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Chung kết Liên minh hạng 3",
+        "label": "62024P · Chung kết Liên minh hạng 3",
+        "photoFolder": "assets/images/achievements/2025-2026/vex-asia-open-signature-v5/awards/62024p/03-chung-ket-lien-minh-hang-3",
+        "photos": []
+      }
     ]
   },
   {
-    "season": "2025–2026",
-    "system": "V5",
-    "event": "Vòng loại miền Nam",
     "detail": "22–23/11/2025 · SSIS · 62024P, 62024A, 62024N",
-    "awards": [
-      "62024P · Tournament Champions",
-      "62024P · Amaze Award",
-      "62024A · Bán kết · Middle School",
-      "62024N · Bán kết · Middle School",
-      "62024P, 62024A, 62024N · Top 5 thi đấu liên minh",
-      "62024P, 62024A, 62024N · Top 10 Robot Skills"
-    ],
-    "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
-    "category": "national",
-    "photos": [
-      {
-        "src": "assets/images/achievements/vong-loai-mien-nam-v5-2025-2026/facebook-823471393732920.jpg",
-        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
-        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/"
-      },
-      {
-        "src": "assets/images/achievements/vong-loai-mien-nam-v5-2025-2026/facebook-823471397066253.jpg",
-        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
-        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/"
-      },
-      {
-        "src": "assets/images/achievements/vong-loai-mien-nam-v5-2025-2026/facebook-823471400399586.jpg",
-        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
-        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/"
-      },
-      {
-        "src": "assets/images/achievements/vong-loai-mien-nam-v5-2025-2026/facebook-823471403732919.jpg",
-        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
-        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/"
-      },
-      {
-        "src": "assets/images/achievements/vong-loai-mien-nam-v5-2025-2026/facebook-823471407066252.jpg",
-        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
-        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/"
-      },
-      {
-        "src": "assets/images/achievements/vong-loai-mien-nam-v5-2025-2026/facebook-823471410399585.jpg",
-        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
-        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/vong-loai-mien-nam-v5-2025-2026",
-    "date": "2025-11-22",
     "endDate": "2025-11-23",
     "location": "Trường Quốc tế Nam Sài Gòn · SSIS",
     "displayDetail": "22–23/11/2025 · SSIS",
@@ -318,8 +605,6 @@
         "originalName": "Panda Robot"
       }
     ],
-    "teamName": "Panda Robotics",
-    "postSource": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
     "results": [
       {
         "team": "62024P",
@@ -345,158 +630,172 @@
         "division": "Middle School",
         "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/"
       }
+    ],
+    "description": "",
+    "id": "vong-loai-mien-nam-v5",
+    "season": "2025–2026",
+    "seasonName": "2025–2026 Push Back",
+    "event": "Vòng loại Quốc Gia phía Nam",
+    "system": "V5",
+    "category": "national",
+    "date": "2025-11-22",
+    "time": {
+      "start": "2025-11-22",
+      "end": null,
+      "label": "22–23/11/2025"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+    "postSource": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+    "photoFolder": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471393732920.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "awardId": "01-tournament-champions",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471397066253.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471400399586.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471403732919.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471407066252.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471410399585.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471393732920.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "awardId": "01-tournament-champions",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471397066253.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471400399586.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471403732919.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471407066252.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng loại miền Nam · 22–23/11/2025 · SSIS",
+        "source": "https://www.facebook.com/share/p/1BqBwexQ1Y/",
+        "src": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/shared/facebook-823471410399585.jpg"
+      }
+    ],
+    "awards": [
+      "62024P · Tournament Champions",
+      "62024P · Amaze Award"
+    ],
+    "awardItems": [
+      {
+        "id": "01-tournament-champions",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Tournament Champions",
+        "label": "62024P · Tournament Champions",
+        "photoFolder": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/awards/62024p/01-tournament-champions",
+        "photos": []
+      },
+      {
+        "id": "02-amaze-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Amaze Award",
+        "label": "62024P · Amaze Award",
+        "photoFolder": "assets/images/achievements/2025-2026/vong-loai-mien-nam-v5/awards/62024p/02-amaze-award",
+        "photos": []
+      }
     ]
   },
   {
-    "season": "2025–2026",
-    "system": "V5",
-    "event": "Giao hữu Nam Sài Gòn",
     "detail": "10/2025 · 62024P",
+    "displayDetail": "",
+    "description": "",
+    "location": "",
+    "id": "giao-huu-nam-sai-gon-v5",
+    "season": "2025–2026",
+    "seasonName": "2025–2026 Push Back",
+    "event": "Giao hữu Nam Sài Gòn",
+    "system": "V5",
+    "category": "other",
+    "time": {
+      "start": null,
+      "end": null,
+      "label": "10/2025"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1DouRrqw4B/",
+    "postSource": "https://www.facebook.com/share/p/1DouRrqw4B/",
+    "photoFolder": "assets/images/achievements/2025-2026/giao-huu-nam-sai-gon-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · Giao hữu Nam Sài Gòn",
+        "source": "https://www.facebook.com/photo/?fbid=787270847352975",
+        "awardId": "01-vo-dich-lien-minh",
+        "src": "assets/images/achievements/2025-2026/giao-huu-nam-sai-gon-v5/shared/facebook-787270847352975.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · Giao hữu Nam Sài Gòn",
+        "source": "https://www.facebook.com/photo/?fbid=787270847352975",
+        "awardId": "01-vo-dich-lien-minh",
+        "src": "assets/images/achievements/2025-2026/giao-huu-nam-sai-gon-v5/shared/facebook-787270847352975.jpg"
+      }
+    ],
     "awards": [
       "Vô địch Liên minh"
     ],
-    "source": "https://thanhnien.vn/doi-tuyen-viet-nam-lap-ky-tich-tai-vex-robotics-chau-a-mo-rong-2025-18525122317572322.htm",
-    "category": "other",
-    "photos": [
+    "awardItems": [
       {
-        "src": "assets/images/achievements/giao-huu-nam-sai-gon-v5-2025-2026/facebook-787270847352975.jpg",
-        "alt": "Panda Robotics · Giao hữu Nam Sài Gòn",
-        "source": "https://www.facebook.com/photo/?fbid=787270847352975"
+        "id": "01-vo-dich-lien-minh",
+        "teamName": "Panda Robotics",
+        "teamIds": [],
+        "name": "Vô địch Liên minh",
+        "label": "Vô địch Liên minh",
+        "photoFolder": "assets/images/achievements/2025-2026/giao-huu-nam-sai-gon-v5/awards/panda-robotics/01-vo-dich-lien-minh",
+        "photos": []
       }
-    ],
-    "photoFolder": "assets/images/achievements/giao-huu-nam-sai-gon-v5-2025-2026",
-    "teamName": "Panda Robotics"
+    ]
   },
   {
-    "season": "2024–2025",
-    "system": "V5",
-    "event": "VEX Worlds 2025",
     "detail": "High Stakes · 62024N (Middle School), 62024P (High School)",
-    "awards": [
-      "62024N · Judges Award",
-      "62024N · Robot Skills hạng 17/337",
-      "62024N · Head-to-Head hạng 52/80 · Engineering Division",
-      "62024P · Opportunity Division hạng 44/83",
-      "62024P · Top 100 thế giới Robot Skills"
-    ],
-    "source": "https://www.facebook.com/share/p/1DL5bYnVKD/",
-    "category": "world",
-    "photos": [
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172412396153.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172412396153&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172429062818.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172429062818&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172465729481.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172465729481&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172482396146.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172482396146&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172542396140.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172542396140&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172582396136.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172582396136&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172595729468.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172595729468&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172652396129.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172652396129&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172659062795.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172659062795&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172699062791.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172699062791&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172775729450.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172775729450&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172789062782.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172789062782&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172825729445.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172825729445&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172849062776.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172849062776&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172875729440.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172875729440&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172895729438.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172895729438&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172942396100.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172942396100&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670172965729431.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670172965729431&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670173009062760.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670173009062760&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670173029062758.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670173029062758&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670173055729422.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670173055729422&set=pcb.670173245729403"
-      },
-      {
-        "src": "assets/images/achievements/vex-worlds-2025-v5-2024-2025/facebook-670173075729420.jpg",
-        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
-        "source": "https://www.facebook.com/photo/?fbid=670173075729420&set=pcb.670173245729403"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/vex-worlds-2025-v5-2024-2025",
-    "teamName": "Panda Robotics",
-    "postSource": "https://www.facebook.com/share/p/1DL5bYnVKD/",
-    "date": "2025-05-09",
     "endDate": "2025-05-11",
     "displayDetail": "Panda Robotics · 62024N (MS) & 62024P (HS)",
     "additionalSources": [
@@ -526,91 +825,280 @@
         "result": "Top 100 thế giới",
         "source": "https://www.facebook.com/share/p/1GWJLUR91C/"
       }
+    ],
+    "id": "vex-worlds-2025-v5",
+    "season": "2024–2025",
+    "seasonName": "2024–2025 High Stakes",
+    "event": "VEX Worlds 2025",
+    "system": "V5",
+    "category": "world",
+    "date": "2025-05-09",
+    "time": {
+      "start": "2025-05-09",
+      "end": null,
+      "label": "2025-05-09"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1DL5bYnVKD/",
+    "postSource": "https://www.facebook.com/share/p/1DL5bYnVKD/",
+    "photoFolder": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172412396153&set=pcb.670173245729403",
+        "awardId": "01-judges-award",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172412396153.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172429062818&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172429062818.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172465729481&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172465729481.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172482396146&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172482396146.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172542396140&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172542396140.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172582396136&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172582396136.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172595729468&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172595729468.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172652396129&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172652396129.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172659062795&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172659062795.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172699062791&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172699062791.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172775729450&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172775729450.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172789062782&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172789062782.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172825729445&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172825729445.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172849062776&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172849062776.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172875729440&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172875729440.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172895729438&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172895729438.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172942396100&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172942396100.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172965729431&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172965729431.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173009062760&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173009062760.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173029062758&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173029062758.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173055729422&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173055729422.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173075729420&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173075729420.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172412396153&set=pcb.670173245729403",
+        "awardId": "01-judges-award",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172412396153.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172429062818&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172429062818.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172465729481&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172465729481.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172482396146&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172482396146.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172542396140&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172542396140.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172582396136&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172582396136.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172595729468&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172595729468.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172652396129&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172652396129.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172659062795&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172659062795.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172699062791&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172699062791.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172775729450&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172775729450.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172789062782&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172789062782.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172825729445&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172825729445.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172849062776&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172849062776.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172875729440&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172875729440.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172895729438&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172895729438.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172942396100&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172942396100.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670172965729431&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670172965729431.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173009062760&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173009062760.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173029062758&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173029062758.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173055729422&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173055729422.jpg"
+      },
+      {
+        "alt": "Panda Robotics 62024N · VEX Worlds 2025 · Judges Award",
+        "source": "https://www.facebook.com/photo/?fbid=670173075729420&set=pcb.670173245729403",
+        "src": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/shared/facebook-670173075729420.jpg"
+      }
+    ],
+    "awards": [
+      "62024N · Judges Award",
+      "62024P · Top 100 thế giới Robot Skills"
+    ],
+    "awardItems": [
+      {
+        "id": "01-judges-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024N"
+        ],
+        "name": "Judges Award",
+        "label": "62024N · Judges Award",
+        "photoFolder": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/awards/62024n/01-judges-award",
+        "photos": []
+      },
+      {
+        "id": "05-top-100-the-gioi-robot-skills",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Top 100 thế giới Robot Skills",
+        "label": "62024P · Top 100 thế giới Robot Skills",
+        "photoFolder": "assets/images/achievements/2024-2025/vex-worlds-2025-v5/awards/62024p/05-top-100-the-gioi-robot-skills",
+        "photos": []
+      }
     ]
   },
   {
-    "season": "2024–2025",
-    "system": "V5",
-    "event": "Chung kết Quốc gia 2025",
-    "detail": "High Stakes · Optimus Panda · 62024A",
-    "awards": [
-      "Create Award",
-      "Hạng tư Liên minh"
-    ],
-    "source": "https://sepa.org.vn/chungketquocgiavexv5/",
-    "category": "national",
-    "photos": [],
-    "photoFolder": "assets/images/achievements/chung-ket-quoc-gia-2025-v5-2024-2025",
-    "teamName": "Panda Robotics"
-  },
-  {
-    "season": "2024–2025",
-    "system": "V5",
-    "event": "Vòng đấu miền Nam 2025",
-    "detail": "08–09/02/2025 · VEX V5 · 62024N, 62024P, 62024A",
-    "awards": [
-      "62024N · Excellence Award · Middle School",
-      "62024N · Robot Skills hạng 1 · Middle School",
-      "62024N · Head to Head hạng 2",
-      "62024P · Robot Skills hạng 2 · High School",
-      "62024A · Robot Skills hạng 5 · High School"
-    ],
-    "source": "https://www.facebook.com/share/p/19jjcS7Ete/",
-    "category": "national",
-    "photos": [
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614614718600.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614631385265.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614638051931.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614704718591.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1FPWYt88XR/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614711385257.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1FPWYt88XR/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614728051922.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1FPWYt88XR/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614808051914.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1FPWYt88XR/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614824718579.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1FPWYt88XR/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614831385245.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1FPWYt88XR/"
-      },
-      {
-        "src": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025/facebook-613614904718571.jpg",
-        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
-        "source": "https://www.facebook.com/share/p/1FPWYt88XR/"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/vong-dau-mien-nam-2025-v5-2024-2025",
-    "date": "2025-02-08",
+    "detail": "VEX V5 · 62024N, 62024P, 62024A",
     "endDate": "2025-02-09",
     "displayDetail": "08–09/02/2025",
     "teams": [
@@ -631,159 +1119,313 @@
       }
     ],
     "resultNotes": "62024P và 62024A vào tứ kết Head to Head. 62024N và 62024P nhận thư mời tham dự VEX Worlds 2025.",
-    "teamName": "Panda Robotics"
+    "description": "",
+    "location": "",
+    "id": "vong-dau-mien-nam-2025-v5",
+    "season": "2024–2025",
+    "seasonName": "2024–2025 High Stakes",
+    "event": "Chung kết Quốc Gia 2025",
+    "system": "V5",
+    "category": "national",
+    "date": "2025-02-08",
+    "time": {
+      "start": "2025-02-08",
+      "end": null,
+      "label": "08–09/02/2025"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/19jjcS7Ete/",
+    "postSource": "https://www.facebook.com/share/p/19jjcS7Ete/",
+    "photoFolder": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614614718600.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614631385265.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614638051931.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614704718591.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614711385257.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614728051922.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614808051914.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614824718579.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "awardId": "02-robot-skills-hang-1-middle-school",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614831385245.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "awardId": "01-excellence-award-middle-school",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614904718571.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614614718600.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614631385265.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1Eo33k3TbC/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614638051931.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614704718591.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614711385257.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614728051922.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614808051914.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614824718579.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "awardId": "02-robot-skills-hang-1-middle-school",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614831385245.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu miền Nam · 08–09/02/2025",
+        "source": "https://www.facebook.com/share/p/1FPWYt88XR/",
+        "awardId": "01-excellence-award-middle-school",
+        "src": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/shared/facebook-613614904718571.jpg"
+      }
+    ],
+    "awards": [
+      "62024N · Excellence Award · Middle School",
+      "62024N · Robot Skills hạng 1 · Middle School"
+    ],
+    "awardItems": [
+      {
+        "id": "01-excellence-award-middle-school",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024N"
+        ],
+        "name": "Excellence Award · Middle School",
+        "label": "62024N · Excellence Award · Middle School",
+        "photoFolder": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/awards/62024n/01-excellence-award-middle-school",
+        "photos": []
+      },
+      {
+        "id": "02-robot-skills-hang-1-middle-school",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024N"
+        ],
+        "name": "Robot Skills hạng 1 · Middle School",
+        "label": "62024N · Robot Skills hạng 1 · Middle School",
+        "photoFolder": "assets/images/achievements/2024-2025/vong-dau-mien-nam-2025-v5/awards/62024n/02-robot-skills-hang-1-middle-school",
+        "photos": []
+      }
+    ]
   },
   {
-    "season": "2024–2025",
-    "system": "V5",
-    "event": "Vòng đấu Đồng bằng Sông Hồng",
     "detail": "21–22/12/2024 · Hà Nội",
+    "displayDetail": "",
+    "description": "",
+    "location": "",
+    "id": "vong-dau-dong-bang-song-hong-v5",
+    "season": "2024–2025",
+    "seasonName": "2024–2025 High Stakes",
+    "event": "Vòng loại Quốc Gia phía Bắc",
+    "system": "V5",
+    "category": "national",
+    "time": {
+      "start": null,
+      "end": null,
+      "label": "21–22/12/2024"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1Hv1janXz5/",
+    "postSource": "https://www.facebook.com/share/p/1Hv1janXz5/",
+    "photoFolder": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared",
+    "photos": [
+      {
+        "awardId": "01-vo-dich-lien-minh",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/471183257_122119546334587713_791667392849052973_n.jpg"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482005326_621900537223341_3953924579658974662_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482010502_621900553890006_2134646878150728953_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482032073_621900577223337_9220395228718613705_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482032936_621900647223330_8813197162573163267_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482343885_621900580556670_3074055757327310782_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu Đồng bằng Sông Hồng",
+        "source": "https://www.facebook.com/share/p/1H7VhD9h1y/",
+        "awardId": "02-design-award",
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/facebook-572079588872103.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu Đồng bằng Sông Hồng",
+        "source": "https://www.facebook.com/share/p/1H7VhD9h1y/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/facebook-572079685538760.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "awardId": "01-vo-dich-lien-minh",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/471183257_122119546334587713_791667392849052973_n.jpg"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482005326_621900537223341_3953924579658974662_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482010502_621900553890006_2134646878150728953_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482032073_621900577223337_9220395228718613705_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482032936_621900647223330_8813197162573163267_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/482343885_621900580556670_3074055757327310782_n.jpg",
+        "alt": "Panda Robotics · Vòng loại Quốc Gia phía Bắc",
+        "source": "https://www.facebook.com/share/p/1Hv1janXz5/"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu Đồng bằng Sông Hồng",
+        "source": "https://www.facebook.com/share/p/1H7VhD9h1y/",
+        "awardId": "02-design-award",
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/facebook-572079588872103.jpg"
+      },
+      {
+        "alt": "Panda Robotics · Vòng đấu Đồng bằng Sông Hồng",
+        "source": "https://www.facebook.com/share/p/1H7VhD9h1y/",
+        "src": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/shared/facebook-572079685538760.jpg"
+      }
+    ],
     "awards": [
       "62024N & 62024P · Vô địch Liên minh",
       "62024P · Design Award",
       "62024A · Hạng nhì Liên minh"
     ],
-    "source": "https://sepa.org.vn/vong-dau-dong-bang-song-hong/",
-    "category": "national",
-    "photos": [
+    "awardItems": [
       {
-        "src": "assets/images/achievements/vong-dau-dong-bang-song-hong-v5-2024-2025/facebook-572079588872103.jpg",
-        "alt": "Panda Robotics · Vòng đấu Đồng bằng Sông Hồng",
-        "source": "https://www.facebook.com/share/p/1H7VhD9h1y/"
+        "id": "01-vo-dich-lien-minh",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024N",
+          "62024P"
+        ],
+        "name": "Vô địch Liên minh",
+        "label": "62024N & 62024P · Vô địch Liên minh",
+        "photoFolder": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/awards/62024n-62024p/01-vo-dich-lien-minh",
+        "photos": []
       },
       {
-        "src": "assets/images/achievements/vong-dau-dong-bang-song-hong-v5-2024-2025/facebook-572079685538760.jpg",
-        "alt": "Panda Robotics · Vòng đấu Đồng bằng Sông Hồng",
-        "source": "https://www.facebook.com/share/p/1H7VhD9h1y/"
+        "id": "02-design-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P"
+        ],
+        "name": "Design Award",
+        "label": "62024P · Design Award",
+        "photoFolder": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/awards/62024p/02-design-award",
+        "photos": []
+      },
+      {
+        "id": "03-hang-nhi-lien-minh",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024A"
+        ],
+        "name": "Hạng nhì Liên minh",
+        "label": "62024A · Hạng nhì Liên minh",
+        "photoFolder": "assets/images/achievements/2024-2025/vong-dau-dong-bang-song-hong-v5/awards/62024a/03-hang-nhi-lien-minh",
+        "photos": []
       }
-    ],
-    "photoFolder": "assets/images/achievements/vong-dau-dong-bang-song-hong-v5-2024-2025",
-    "teamName": "Panda Robotics"
+    ]
   },
   {
-    "season": "2024–2025",
-    "system": "V5",
-    "event": "SSIS Qualifying Tournament",
     "detail": "16/11/2024 · SSIS · 62024P & 62024A",
-    "awards": [
-      "62024P & 62024A · Tournament Champions"
-    ],
-    "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
-    "category": "national",
-    "photos": [
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785698068159.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785724734823.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785731401489.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785754734820.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785834734812.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785841401478.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785861401476.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785884734807.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785898068139.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785951401467.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546785961401466.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546786098068119.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546786118068117.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546786978068031.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546786988068030.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546786998068029.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546787174734678.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546787191401343.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546787198068009.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546787674734628.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546787694734626.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      },
-      {
-        "src": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025/facebook-546805454732850.jpg",
-        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
-        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/ssis-qualifying-tournament-v5-2024-2025",
-    "date": "2024-11-16",
     "location": "Trường Quốc tế Nam Sài Gòn · SSIS",
     "displayDetail": "16/11/2024 · SSIS",
     "teams": [
@@ -799,71 +1441,299 @@
       }
     ],
     "resultNotes": "Các đội Panda Robotics đều nằm trong top 5 Robot Skills Challenge theo bài viết.",
-    "teamName": "Panda Robotics"
+    "description": "",
+    "id": "ssis-qualifying-tournament-v5",
+    "season": "2024–2025",
+    "seasonName": "2024–2025 High Stakes",
+    "event": "Vòng loại Quốc Gia phía Nam",
+    "system": "V5",
+    "category": "national",
+    "date": "2024-11-16",
+    "time": {
+      "start": "2024-11-16",
+      "end": null,
+      "label": "16/11/2024"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+    "postSource": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+    "photoFolder": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "awardId": "",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785698068159.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785724734823.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785731401489.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785754734820.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785834734812.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785861401476.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785884734807.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785898068139.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785951401467.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785961401466.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546786118068117.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546786998068029.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546787674734628.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546787694734626.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546805454732850.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "awardId": "",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785698068159.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785724734823.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785731401489.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785754734820.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785834734812.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785861401476.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785884734807.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785898068139.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785951401467.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546785961401466.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546786118068117.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546786998068029.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546787674734628.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546787694734626.jpg"
+      },
+      {
+        "alt": "Panda Robotics · SSIS Qualifying Tournament · 16/11/2024",
+        "source": "https://www.facebook.com/share/p/1AxqPDvRjG/",
+        "src": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/shared/facebook-546805454732850.jpg"
+      }
+    ],
+    "awards": [
+      "62024P & 62024A · Tournament Champions"
+    ],
+    "awardItems": [
+      {
+        "id": "01-tournament-champions",
+        "teamName": "Panda Robotics",
+        "teamIds": [
+          "62024P",
+          "62024A"
+        ],
+        "name": "Tournament Champions",
+        "label": "62024P & 62024A · Tournament Champions",
+        "photoFolder": "assets/images/achievements/2024-2025/ssis-qualifying-tournament-v5/awards/62024p-62024a/01-tournament-champions",
+        "photos": []
+      }
+    ]
   },
   {
-    "season": "2023–2024",
-    "system": "V5",
-    "event": "VEX Worlds 2024",
     "detail": "27/04/2024 · High School · Dallas, Texas, Hoa Kỳ",
+    "sourceTeamName": "PENN MÌ Ý",
+    "location": "Dallas, Texas, Hoa Kỳ",
+    "displayDetail": "Panda Robotics · High School · Dallas, USA",
+    "id": "vex-worlds-2024-v5",
+    "season": "2023–2024",
+    "seasonName": "2023–2024 Over Under",
+    "event": "VEX Worlds 2024",
+    "system": "V5",
+    "category": "world",
+    "date": "2024-04-27",
+    "time": {
+      "start": "2024-04-27",
+      "end": null,
+      "label": "27/04/2024"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/pandaroboticsvn",
+    "postSource": "https://www.facebook.com/pandaroboticsvn",
+    "photoFolder": "assets/images/achievements/2023-2024/vex-worlds-2024-v5/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · VEX Worlds 2024 · Judges Award",
+        "source": "https://www.facebook.com/pandaroboticsvn",
+        "awardId": "01-judges-award",
+        "src": "assets/images/achievements/2023-2024/vex-worlds-2024-v5/shared/11-IMG_1017.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · VEX Worlds 2024 · Judges Award",
+        "source": "https://www.facebook.com/pandaroboticsvn",
+        "awardId": "01-judges-award",
+        "src": "assets/images/achievements/2023-2024/vex-worlds-2024-v5/shared/11-IMG_1017.jpg"
+      }
+    ],
     "awards": [
       "Judges Award"
     ],
-    "source": "https://www.facebook.com/pandaroboticsvn",
-    "category": "world",
-    "photos": [
+    "awardItems": [
       {
-        "src": "assets/images/achievements/vex-worlds-2024-v5-2023-2024/11-IMG_1017.jpg",
-        "alt": "Panda Robotics · VEX Worlds 2024 · Judges Award",
-        "source": "https://www.facebook.com/pandaroboticsvn"
+        "id": "01-judges-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [],
+        "name": "Judges Award",
+        "label": "Judges Award",
+        "photoFolder": "assets/images/achievements/2023-2024/vex-worlds-2024-v5/awards/panda-robotics/01-judges-award",
+        "photos": []
       }
-    ],
-    "photoFolder": "assets/images/achievements/vex-worlds-2024-v5-2023-2024",
-    "teamName": "Panda Robotics",
-    "sourceTeamName": "PENN MÌ Ý",
-    "date": "2024-04-27",
-    "location": "Dallas, Texas, Hoa Kỳ",
-    "displayDetail": "Panda Robotics · High School · Dallas, USA"
+    ]
   },
   {
-    "season": "2023–2024",
-    "system": "V5",
-    "event": "Chung kết Quốc gia · Over Under",
-    "detail": "High School & Middle School",
-    "awards": [
-      "Excellence Award · High School",
-      "Robot Skills Champion · High School",
-      "Excellence Award · Middle School",
-      "Robot Skills Champion · Middle School"
-    ],
-    "source": "https://www.facebook.com/pandaroboticsvn",
-    "category": "national",
-    "photos": [],
-    "photoFolder": "assets/images/achievements/chung-ket-quoc-gia-over-under-v5-2023-2024",
-    "teamName": "Panda Robotics"
-  },
-  {
-    "season": "2022–2023",
-    "system": "IQ",
-    "event": "VEX Worlds 2023",
     "detail": "VEX IQ · Research Division · Dallas, Hoa Kỳ",
-    "awards": [
-      "Inspire Award"
-    ],
-    "source": "https://www.facebook.com/pandaroboticsvn",
-    "category": "world",
-    "photos": [
-      {
-        "src": "assets/images/achievements/vex-worlds-2023-iq-2022-2023/05-z4315917503943_0e41646d42f2aefc558290bc5cc6282a.jpg",
-        "alt": "Panda Robotics · VEX Worlds 2023 · Inspire Award",
-        "source": "https://www.facebook.com/pandaroboticsvn"
-      }
-    ],
-    "photoFolder": "assets/images/achievements/vex-worlds-2023-iq-2022-2023",
-    "teamName": "Panda Robotics",
     "sourceTeamName": "PENN CHUỐI SẤY",
     "location": "Kay Bailey Hutchison Convention Center · Dallas, Hoa Kỳ",
     "displayDetail": "Panda Robotics · Research Division · Dallas, USA",
-    "resultNotes": "Hạng 37 của Research Division theo bài PennSchool."
+    "resultNotes": "Hạng 37 của Research Division theo bài PennSchool.",
+    "id": "vex-worlds-2023-iq",
+    "season": "2022–2023",
+    "seasonName": "2022–2023 Slapshot",
+    "event": "VEX Worlds 2023",
+    "system": "IQ",
+    "category": "world",
+    "time": {
+      "start": null,
+      "end": null,
+      "label": "Ngày chưa xác nhận"
+    },
+    "teamName": "Panda Robotics",
+    "source": "https://www.facebook.com/pandaroboticsvn",
+    "postSource": "https://www.facebook.com/pandaroboticsvn",
+    "photoFolder": "assets/images/achievements/2022-2023/vex-worlds-2023-iq/shared",
+    "photos": [
+      {
+        "alt": "Panda Robotics · VEX Worlds 2023 · Inspire Award",
+        "source": "https://www.facebook.com/pandaroboticsvn",
+        "awardId": "01-inspire-award",
+        "src": "assets/images/achievements/2022-2023/vex-worlds-2023-iq/shared/05-z4315917503943_0e41646d42f2aefc558290bc5cc6282a.jpg"
+      }
+    ],
+    "sharedPhotos": [
+      {
+        "alt": "Panda Robotics · VEX Worlds 2023 · Inspire Award",
+        "source": "https://www.facebook.com/pandaroboticsvn",
+        "awardId": "01-inspire-award",
+        "src": "assets/images/achievements/2022-2023/vex-worlds-2023-iq/shared/05-z4315917503943_0e41646d42f2aefc558290bc5cc6282a.jpg"
+      }
+    ],
+    "awards": [
+      "Inspire Award"
+    ],
+    "awardItems": [
+      {
+        "id": "01-inspire-award",
+        "teamName": "Panda Robotics",
+        "teamIds": [],
+        "name": "Inspire Award",
+        "label": "Inspire Award",
+        "photoFolder": "assets/images/achievements/2022-2023/vex-worlds-2023-iq/awards/panda-robotics/01-inspire-award",
+        "photos": []
+      }
+    ]
   }
 ]

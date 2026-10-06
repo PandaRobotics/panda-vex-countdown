@@ -7,8 +7,8 @@ function paint(value){
 const mobile=window.innerWidth<=700;
 const title=Math.min(54,Math.max(30,window.innerWidth*.05));
 const lerp=(a,b)=>a+(b-a)*value;
-header.style.setProperty('--header-padding',lerp(mobile?22:30,mobile?9:10)+'px');
-header.style.setProperty('--header-logo',lerp(mobile?76:100,mobile?42:48)+'px');
+header.style.setProperty('--header-padding',lerp(mobile?14:18,mobile?8:9)+'px');
+header.style.setProperty('--header-logo',lerp(mobile?56:68,mobile?40:44)+'px');
 header.style.setProperty('--header-title',lerp(title,mobile?22:28)+'px');
 header.style.setProperty('--header-brand-gap',lerp(17,10)+'px');
 header.style.setProperty('--header-gap',lerp(mobile?25:25,mobile?8:16)+'px');

@@ -7,7 +7,10 @@ const {syncGalleries} = require('./sync-galleries.cjs');
 const port = Number(process.env.PORT || 5173);
 const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.webp':'image/webp','.ico':'image/x-icon','.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8'};
 
+const localAdminPath=path.resolve(__dirname,'../.local/admin/server.cjs');
+const localAdmin=require('node:fs').existsSync(localAdminPath)?require(localAdminPath).createAdmin({projectRoot:path.resolve(__dirname,'..'),port}):null;
 http.createServer(async (request,response) => {
+  if(localAdmin){const localUrl=new URL(request.url,'http://localhost');if(await localAdmin(request,response,localUrl))return;}
   if (!['GET','HEAD'].includes(request.method)) {
     response.writeHead(405, {'Allow':'GET, HEAD'});
     return response.end();

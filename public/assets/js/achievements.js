@@ -170,7 +170,11 @@
     grid.classList.add('achievement-timeline');
     if (!grid.dataset.view) grid.dataset.view='1';
     const entries=selected.filter(record=>record.photos?.length);
+    let currentYear='';
+    const yearOf=record=>record.season;
     entries.forEach((record,index)=>{
+      const year=yearOf(record);
+      if(year!==currentYear){currentYear=year;const group=entries.filter(r=>yearOf(r)===year);const heading=el('header','timeline-year-heading');heading.append(el('h3','',year),el('p','',group.length+' giải đấu · '+group.reduce((sum,r)=>sum+r.awards.length,0)+' thành tích'));fragment.append(heading);}
       const row=el('section','timeline-event category-'+record.category);
       const label=record.date ? new Date(record.date+'T12:00:00').toLocaleDateString('vi-VN') : record.detail.match(/(?:\d{1,2}[–-])?\d{1,2}\/\d{1,2}\/\d{4}|\d{1,2}\/\d{4}/)?.[0] || record.event.match(/20\d{2}/)?.[0] || 'Mùa '+record.season;
       const marker=el('div','timeline-marker');marker.append(el('span','timeline-step',label));

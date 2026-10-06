@@ -8,7 +8,8 @@
     "start": "node scripts/dev-server.cjs",
     "check": "node scripts/check-site.cjs",
     "sync:photos": "node scripts/sync-galleries.cjs",
-    "build": "node scripts/build-landing.cjs && node scripts/check-site.cjs && node scripts/check-seo.cjs"
+    "build": "node scripts/build-landing.cjs && node scripts/check-achievement-catalog.cjs && node scripts/check-site.cjs && node scripts/check-seo.cjs",
+    "check:achievements": "node scripts/check-achievement-catalog.cjs"
   },
   "engines": {
     "node": ">=20"
